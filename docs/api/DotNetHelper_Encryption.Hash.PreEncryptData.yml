@@ -1,0 +1,813 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData
+  commentId: T:DotNetHelper_Encryption.Hash.PreEncryptData
+  id: Hash.PreEncryptData
+  parent: DotNetHelper_Encryption
+  children:
+  - DotNetHelper_Encryption.Hash.PreEncryptData.#ctor
+  - DotNetHelper_Encryption.Hash.PreEncryptData.#ctor(System.Byte[])
+  - DotNetHelper_Encryption.Hash.PreEncryptData.#ctor(System.String)
+  - DotNetHelper_Encryption.Hash.PreEncryptData.#ctor(System.String,System.Text.Encoding)
+  - DotNetHelper_Encryption.Hash.PreEncryptData.Bytes
+  - DotNetHelper_Encryption.Hash.PreEncryptData.DefaultEncoding
+  - DotNetHelper_Encryption.Hash.PreEncryptData.Encoding
+  - DotNetHelper_Encryption.Hash.PreEncryptData.IsEmpty
+  - DotNetHelper_Encryption.Hash.PreEncryptData.Text
+  - DotNetHelper_Encryption.Hash.PreEncryptData.ToString
+  langs:
+  - csharp
+  - vb
+  name: Hash.PreEncryptData
+  nameWithType: Hash.PreEncryptData
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: PreEncryptData
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 375
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nRepresents data to encrypt or decrypt.\n"
+  remarks: "\nUse the Text property to get/set a string representation.\n"
+  example: []
+  syntax:
+    content: public class PreEncryptData
+    content.vb: Public Class PreEncryptData
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - DotNetHelper_Encryption.SymmetricKeyData
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.DefaultEncoding
+  commentId: P:DotNetHelper_Encryption.Hash.PreEncryptData.DefaultEncoding
+  id: DefaultEncoding
+  parent: DotNetHelper_Encryption.Hash.PreEncryptData
+  langs:
+  - csharp
+  - vb
+  name: DefaultEncoding
+  nameWithType: Hash.PreEncryptData.DefaultEncoding
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.DefaultEncoding
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: DefaultEncoding
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 384
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGets the default text encoding for all Data instances.\n"
+  example: []
+  syntax:
+    content: public static Encoding DefaultEncoding { get; }
+    parameters: []
+    return:
+      type: System.Text.Encoding
+    content.vb: Public Shared ReadOnly Property DefaultEncoding As Encoding
+  overload: DotNetHelper_Encryption.Hash.PreEncryptData.DefaultEncoding*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.Encoding
+  commentId: P:DotNetHelper_Encryption.Hash.PreEncryptData.Encoding
+  id: Encoding
+  parent: DotNetHelper_Encryption.Hash.PreEncryptData
+  langs:
+  - csharp
+  - vb
+  name: Encoding
+  nameWithType: Hash.PreEncryptData.Encoding
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.Encoding
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Encoding
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 390
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGets or sets the text encoding for this Data instance.\n"
+  example: []
+  syntax:
+    content: public Encoding Encoding { get; set; }
+    parameters: []
+    return:
+      type: System.Text.Encoding
+    content.vb: Public Property Encoding As Encoding
+  overload: DotNetHelper_Encryption.Hash.PreEncryptData.Encoding*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.#ctor
+  commentId: M:DotNetHelper_Encryption.Hash.PreEncryptData.#ctor
+  id: '#ctor'
+  parent: DotNetHelper_Encryption.Hash.PreEncryptData
+  langs:
+  - csharp
+  - vb
+  name: PreEncryptData()
+  nameWithType: Hash.PreEncryptData.PreEncryptData()
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.PreEncryptData()
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: .ctor
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 403
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nInitializes a new instance of the Data class that is empty.\n"
+  example: []
+  syntax:
+    content: public PreEncryptData()
+    content.vb: Public Sub New
+  overload: DotNetHelper_Encryption.Hash.PreEncryptData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.#ctor(System.Byte[])
+  commentId: M:DotNetHelper_Encryption.Hash.PreEncryptData.#ctor(System.Byte[])
+  id: '#ctor(System.Byte[])'
+  parent: DotNetHelper_Encryption.Hash.PreEncryptData
+  langs:
+  - csharp
+  - vb
+  name: PreEncryptData(Byte[])
+  nameWithType: Hash.PreEncryptData.PreEncryptData(Byte[])
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.PreEncryptData(System.Byte[])
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: .ctor
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 411
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nInitializes a new instance of the Data class with the byte array value.\n"
+  example: []
+  syntax:
+    content: public PreEncryptData(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    content.vb: Public Sub New(value As Byte())
+  overload: DotNetHelper_Encryption.Hash.PreEncryptData.#ctor*
+  nameWithType.vb: Hash.PreEncryptData.PreEncryptData(Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DotNetHelper_Encryption.Hash.PreEncryptData.PreEncryptData(System.Byte())
+  name.vb: PreEncryptData(Byte())
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.#ctor(System.String)
+  commentId: M:DotNetHelper_Encryption.Hash.PreEncryptData.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: DotNetHelper_Encryption.Hash.PreEncryptData
+  langs:
+  - csharp
+  - vb
+  name: PreEncryptData(String)
+  nameWithType: Hash.PreEncryptData.PreEncryptData(String)
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.PreEncryptData(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: .ctor
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 419
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nInitializes a new instance of the Data class with the string value.\n"
+  example: []
+  syntax:
+    content: public PreEncryptData(string value)
+    parameters:
+    - id: value
+      type: System.String
+    content.vb: Public Sub New(value As String)
+  overload: DotNetHelper_Encryption.Hash.PreEncryptData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.#ctor(System.String,System.Text.Encoding)
+  commentId: M:DotNetHelper_Encryption.Hash.PreEncryptData.#ctor(System.String,System.Text.Encoding)
+  id: '#ctor(System.String,System.Text.Encoding)'
+  parent: DotNetHelper_Encryption.Hash.PreEncryptData
+  langs:
+  - csharp
+  - vb
+  name: PreEncryptData(String, Encoding)
+  nameWithType: Hash.PreEncryptData.PreEncryptData(String, Encoding)
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.PreEncryptData(System.String, System.Text.Encoding)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: .ctor
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 427
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nInitializes a new instance of the Data class with the string value.\n"
+  example: []
+  syntax:
+    content: public PreEncryptData(string value, Encoding encoding)
+    parameters:
+    - id: value
+      type: System.String
+    - id: encoding
+      type: System.Text.Encoding
+    content.vb: Public Sub New(value As String, encoding As Encoding)
+  overload: DotNetHelper_Encryption.Hash.PreEncryptData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.IsEmpty
+  commentId: P:DotNetHelper_Encryption.Hash.PreEncryptData.IsEmpty
+  id: IsEmpty
+  parent: DotNetHelper_Encryption.Hash.PreEncryptData
+  langs:
+  - csharp
+  - vb
+  name: IsEmpty
+  nameWithType: Hash.PreEncryptData.IsEmpty
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.IsEmpty
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: IsEmpty
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 441
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nIndicates if no data is present in this instance.\n"
+  example: []
+  syntax:
+    content: public bool IsEmpty { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsEmpty As Boolean
+  overload: DotNetHelper_Encryption.Hash.PreEncryptData.IsEmpty*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.Bytes
+  commentId: P:DotNetHelper_Encryption.Hash.PreEncryptData.Bytes
+  id: Bytes
+  parent: DotNetHelper_Encryption.Hash.PreEncryptData
+  langs:
+  - csharp
+  - vb
+  name: Bytes
+  nameWithType: Hash.PreEncryptData.Bytes
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.Bytes
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Bytes
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 446
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGets or sets the byte representation of the data.\n"
+  example: []
+  syntax:
+    content: public virtual byte[] Bytes { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Overridable Property Bytes As Byte()
+  overload: DotNetHelper_Encryption.Hash.PreEncryptData.Bytes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.Text
+  commentId: P:DotNetHelper_Encryption.Hash.PreEncryptData.Text
+  id: Text
+  parent: DotNetHelper_Encryption.Hash.PreEncryptData
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: Hash.PreEncryptData.Text
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.Text
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Text
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 455
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGets or sets the text representation of the data using the Encoding value.\n"
+  example: []
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: DotNetHelper_Encryption.Hash.PreEncryptData.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.ToString
+  commentId: M:DotNetHelper_Encryption.Hash.PreEncryptData.ToString
+  id: ToString
+  parent: DotNetHelper_Encryption.Hash.PreEncryptData
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Hash.PreEncryptData.ToString()
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.ToString()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: ToString
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 484
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nReturns a string that represents the current object.\n"
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: DotNetHelper_Encryption.Hash.PreEncryptData.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: DotNetHelper_Encryption
+  commentId: N:DotNetHelper_Encryption
+  name: DotNetHelper_Encryption
+  nameWithType: DotNetHelper_Encryption
+  fullName: DotNetHelper_Encryption
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.DefaultEncoding*
+  commentId: Overload:DotNetHelper_Encryption.Hash.PreEncryptData.DefaultEncoding
+  name: DefaultEncoding
+  nameWithType: Hash.PreEncryptData.DefaultEncoding
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.DefaultEncoding
+- uid: System.Text.Encoding
+  commentId: T:System.Text.Encoding
+  parent: System.Text
+  isExternal: true
+  name: Encoding
+  nameWithType: Encoding
+  fullName: System.Text.Encoding
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.Encoding*
+  commentId: Overload:DotNetHelper_Encryption.Hash.PreEncryptData.Encoding
+  name: Encoding
+  nameWithType: Hash.PreEncryptData.Encoding
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.Encoding
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.#ctor*
+  commentId: Overload:DotNetHelper_Encryption.Hash.PreEncryptData.#ctor
+  name: PreEncryptData
+  nameWithType: Hash.PreEncryptData.PreEncryptData
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.PreEncryptData
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.IsEmpty*
+  commentId: Overload:DotNetHelper_Encryption.Hash.PreEncryptData.IsEmpty
+  name: IsEmpty
+  nameWithType: Hash.PreEncryptData.IsEmpty
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.IsEmpty
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.Bytes*
+  commentId: Overload:DotNetHelper_Encryption.Hash.PreEncryptData.Bytes
+  name: Bytes
+  nameWithType: Hash.PreEncryptData.Bytes
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.Bytes
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.Text*
+  commentId: Overload:DotNetHelper_Encryption.Hash.PreEncryptData.Text
+  name: Text
+  nameWithType: Hash.PreEncryptData.Text
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.Text
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.ToString*
+  commentId: Overload:DotNetHelper_Encryption.Hash.PreEncryptData.ToString
+  name: ToString
+  nameWithType: Hash.PreEncryptData.ToString
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.ToString

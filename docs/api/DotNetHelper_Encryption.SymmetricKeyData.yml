@@ -1,0 +1,721 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Encryption.SymmetricKeyData
+  commentId: T:DotNetHelper_Encryption.SymmetricKeyData
+  id: SymmetricKeyData
+  parent: DotNetHelper_Encryption
+  children:
+  - DotNetHelper_Encryption.SymmetricKeyData.#ctor
+  - DotNetHelper_Encryption.SymmetricKeyData.#ctor(System.Byte[])
+  - DotNetHelper_Encryption.SymmetricKeyData.#ctor(System.String)
+  - DotNetHelper_Encryption.SymmetricKeyData.#ctor(System.String,System.Text.Encoding)
+  - DotNetHelper_Encryption.SymmetricKeyData.Bytes
+  - DotNetHelper_Encryption.SymmetricKeyData.MaxBytes
+  - DotNetHelper_Encryption.SymmetricKeyData.MinBytes
+  langs:
+  - csharp
+  - vb
+  name: SymmetricKeyData
+  nameWithType: SymmetricKeyData
+  fullName: DotNetHelper_Encryption.SymmetricKeyData
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: SymmetricKeyData
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 372
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nRepresents symmetric key data used to encrypt or decrypt data.\n"
+  remarks: "\nUse the Text property to get/set a string representation.\n"
+  example: []
+  syntax:
+    content: 'public class SymmetricKeyData : Hash.PreEncryptData'
+    content.vb: >-
+      Public Class SymmetricKeyData
+          Inherits Hash.PreEncryptData
+  inheritance:
+  - System.Object
+  - DotNetHelper_Encryption.Hash.PreEncryptData
+  inheritedMembers:
+  - DotNetHelper_Encryption.Hash.PreEncryptData.DefaultEncoding
+  - DotNetHelper_Encryption.Hash.PreEncryptData.Encoding
+  - DotNetHelper_Encryption.Hash.PreEncryptData.IsEmpty
+  - DotNetHelper_Encryption.Hash.PreEncryptData.Text
+  - DotNetHelper_Encryption.Hash.PreEncryptData.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Encryption.SymmetricKeyData.#ctor
+  commentId: M:DotNetHelper_Encryption.SymmetricKeyData.#ctor
+  id: '#ctor'
+  parent: DotNetHelper_Encryption.SymmetricKeyData
+  langs:
+  - csharp
+  - vb
+  name: SymmetricKeyData()
+  nameWithType: SymmetricKeyData.SymmetricKeyData()
+  fullName: DotNetHelper_Encryption.SymmetricKeyData.SymmetricKeyData()
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: .ctor
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 378
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nInitializes a new instance of the SymmetricKeyData class that is empty.\n"
+  example: []
+  syntax:
+    content: public SymmetricKeyData()
+    content.vb: Public Sub New
+  overload: DotNetHelper_Encryption.SymmetricKeyData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.SymmetricKeyData.#ctor(System.Byte[])
+  commentId: M:DotNetHelper_Encryption.SymmetricKeyData.#ctor(System.Byte[])
+  id: '#ctor(System.Byte[])'
+  parent: DotNetHelper_Encryption.SymmetricKeyData
+  langs:
+  - csharp
+  - vb
+  name: SymmetricKeyData(Byte[])
+  nameWithType: SymmetricKeyData.SymmetricKeyData(Byte[])
+  fullName: DotNetHelper_Encryption.SymmetricKeyData.SymmetricKeyData(System.Byte[])
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: .ctor
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 387
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nInitializes a new instance of the SymmetricKeyData class with the byte array value.\n"
+  example: []
+  syntax:
+    content: public SymmetricKeyData(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    content.vb: Public Sub New(value As Byte())
+  overload: DotNetHelper_Encryption.SymmetricKeyData.#ctor*
+  nameWithType.vb: SymmetricKeyData.SymmetricKeyData(Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DotNetHelper_Encryption.SymmetricKeyData.SymmetricKeyData(System.Byte())
+  name.vb: SymmetricKeyData(Byte())
+- uid: DotNetHelper_Encryption.SymmetricKeyData.#ctor(System.String)
+  commentId: M:DotNetHelper_Encryption.SymmetricKeyData.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: DotNetHelper_Encryption.SymmetricKeyData
+  langs:
+  - csharp
+  - vb
+  name: SymmetricKeyData(String)
+  nameWithType: SymmetricKeyData.SymmetricKeyData(String)
+  fullName: DotNetHelper_Encryption.SymmetricKeyData.SymmetricKeyData(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: .ctor
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 397
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nInitializes a new instance of the SymmetricKeyData class with the string value.\n"
+  example: []
+  syntax:
+    content: public SymmetricKeyData(string value)
+    parameters:
+    - id: value
+      type: System.String
+    content.vb: Public Sub New(value As String)
+  overload: DotNetHelper_Encryption.SymmetricKeyData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.SymmetricKeyData.#ctor(System.String,System.Text.Encoding)
+  commentId: M:DotNetHelper_Encryption.SymmetricKeyData.#ctor(System.String,System.Text.Encoding)
+  id: '#ctor(System.String,System.Text.Encoding)'
+  parent: DotNetHelper_Encryption.SymmetricKeyData
+  langs:
+  - csharp
+  - vb
+  name: SymmetricKeyData(String, Encoding)
+  nameWithType: SymmetricKeyData.SymmetricKeyData(String, Encoding)
+  fullName: DotNetHelper_Encryption.SymmetricKeyData.SymmetricKeyData(System.String, System.Text.Encoding)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: .ctor
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 407
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nInitializes a new instance of the SymmetricKeyData class with the string value.\n"
+  example: []
+  syntax:
+    content: public SymmetricKeyData(string value, Encoding encoding)
+    parameters:
+    - id: value
+      type: System.String
+    - id: encoding
+      type: System.Text.Encoding
+    content.vb: Public Sub New(value As String, encoding As Encoding)
+  overload: DotNetHelper_Encryption.SymmetricKeyData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.SymmetricKeyData.MinBytes
+  commentId: P:DotNetHelper_Encryption.SymmetricKeyData.MinBytes
+  id: MinBytes
+  parent: DotNetHelper_Encryption.SymmetricKeyData
+  langs:
+  - csharp
+  - vb
+  name: MinBytes
+  nameWithType: SymmetricKeyData.MinBytes
+  fullName: DotNetHelper_Encryption.SymmetricKeyData.MinBytes
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: MinBytes
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 416
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGets or sets the minimum number of bytes allowed for this data; if 0, no limit.\n"
+  example: []
+  syntax:
+    content: public int MinBytes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinBytes As Integer
+  overload: DotNetHelper_Encryption.SymmetricKeyData.MinBytes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.SymmetricKeyData.MaxBytes
+  commentId: P:DotNetHelper_Encryption.SymmetricKeyData.MaxBytes
+  id: MaxBytes
+  parent: DotNetHelper_Encryption.SymmetricKeyData
+  langs:
+  - csharp
+  - vb
+  name: MaxBytes
+  nameWithType: SymmetricKeyData.MaxBytes
+  fullName: DotNetHelper_Encryption.SymmetricKeyData.MaxBytes
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: MaxBytes
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 421
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGets or sets the maximum number of bytes allowed for this data; if 0, no limit.\n"
+  example: []
+  syntax:
+    content: public int MaxBytes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxBytes As Integer
+  overload: DotNetHelper_Encryption.SymmetricKeyData.MaxBytes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.SymmetricKeyData.Bytes
+  commentId: P:DotNetHelper_Encryption.SymmetricKeyData.Bytes
+  id: Bytes
+  parent: DotNetHelper_Encryption.SymmetricKeyData
+  langs:
+  - csharp
+  - vb
+  name: Bytes
+  nameWithType: SymmetricKeyData.Bytes
+  fullName: DotNetHelper_Encryption.SymmetricKeyData.Bytes
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Bytes
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 427
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGets or sets the byte representation of the data. This will be padded to MinBytes and trimmed to MaxBytes as necessary.\n"
+  example: []
+  syntax:
+    content: public override byte[] Bytes { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Overrides Property Bytes As Byte()
+  overridden: DotNetHelper_Encryption.Hash.PreEncryptData.Bytes
+  overload: DotNetHelper_Encryption.SymmetricKeyData.Bytes*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: DotNetHelper_Encryption
+  commentId: N:DotNetHelper_Encryption
+  name: DotNetHelper_Encryption
+  nameWithType: DotNetHelper_Encryption
+  fullName: DotNetHelper_Encryption
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData
+  commentId: T:DotNetHelper_Encryption.Hash.PreEncryptData
+  parent: DotNetHelper_Encryption
+  name: Hash.PreEncryptData
+  nameWithType: Hash.PreEncryptData
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.DefaultEncoding
+  commentId: P:DotNetHelper_Encryption.Hash.PreEncryptData.DefaultEncoding
+  parent: DotNetHelper_Encryption.Hash.PreEncryptData
+  name: DefaultEncoding
+  nameWithType: Hash.PreEncryptData.DefaultEncoding
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.DefaultEncoding
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.Encoding
+  commentId: P:DotNetHelper_Encryption.Hash.PreEncryptData.Encoding
+  parent: DotNetHelper_Encryption.Hash.PreEncryptData
+  name: Encoding
+  nameWithType: Hash.PreEncryptData.Encoding
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.Encoding
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.IsEmpty
+  commentId: P:DotNetHelper_Encryption.Hash.PreEncryptData.IsEmpty
+  parent: DotNetHelper_Encryption.Hash.PreEncryptData
+  name: IsEmpty
+  nameWithType: Hash.PreEncryptData.IsEmpty
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.IsEmpty
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.Text
+  commentId: P:DotNetHelper_Encryption.Hash.PreEncryptData.Text
+  parent: DotNetHelper_Encryption.Hash.PreEncryptData
+  name: Text
+  nameWithType: Hash.PreEncryptData.Text
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.Text
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.ToString
+  commentId: M:DotNetHelper_Encryption.Hash.PreEncryptData.ToString
+  parent: DotNetHelper_Encryption.Hash.PreEncryptData
+  name: ToString()
+  nameWithType: Hash.PreEncryptData.ToString()
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.ToString()
+  spec.csharp:
+  - uid: DotNetHelper_Encryption.Hash.PreEncryptData.ToString
+    name: ToString
+    nameWithType: Hash.PreEncryptData.ToString
+    fullName: DotNetHelper_Encryption.Hash.PreEncryptData.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Encryption.Hash.PreEncryptData.ToString
+    name: ToString
+    nameWithType: Hash.PreEncryptData.ToString
+    fullName: DotNetHelper_Encryption.Hash.PreEncryptData.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Encryption.SymmetricKeyData.#ctor*
+  commentId: Overload:DotNetHelper_Encryption.SymmetricKeyData.#ctor
+  name: SymmetricKeyData
+  nameWithType: SymmetricKeyData.SymmetricKeyData
+  fullName: DotNetHelper_Encryption.SymmetricKeyData.SymmetricKeyData
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Text.Encoding
+  commentId: T:System.Text.Encoding
+  parent: System.Text
+  isExternal: true
+  name: Encoding
+  nameWithType: Encoding
+  fullName: System.Text.Encoding
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+- uid: DotNetHelper_Encryption.SymmetricKeyData.MinBytes*
+  commentId: Overload:DotNetHelper_Encryption.SymmetricKeyData.MinBytes
+  name: MinBytes
+  nameWithType: SymmetricKeyData.MinBytes
+  fullName: DotNetHelper_Encryption.SymmetricKeyData.MinBytes
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DotNetHelper_Encryption.SymmetricKeyData.MaxBytes*
+  commentId: Overload:DotNetHelper_Encryption.SymmetricKeyData.MaxBytes
+  name: MaxBytes
+  nameWithType: SymmetricKeyData.MaxBytes
+  fullName: DotNetHelper_Encryption.SymmetricKeyData.MaxBytes
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData.Bytes
+  commentId: P:DotNetHelper_Encryption.Hash.PreEncryptData.Bytes
+  parent: DotNetHelper_Encryption.Hash.PreEncryptData
+  name: Bytes
+  nameWithType: Hash.PreEncryptData.Bytes
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData.Bytes
+- uid: DotNetHelper_Encryption.SymmetricKeyData.Bytes*
+  commentId: Overload:DotNetHelper_Encryption.SymmetricKeyData.Bytes
+  name: Bytes
+  nameWithType: SymmetricKeyData.Bytes
+  fullName: DotNetHelper_Encryption.SymmetricKeyData.Bytes

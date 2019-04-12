@@ -1,0 +1,29 @@
+### YamlMime:TableOfContent
+- uid: DotNetHelper_Encryption
+  name: DotNetHelper_Encryption
+  items:
+  - uid: DotNetHelper_Encryption.EncryptionAsymmetric
+    name: EncryptionAsymmetric
+  - uid: DotNetHelper_Encryption.EncryptionSymmetric
+    name: EncryptionSymmetric
+  - uid: DotNetHelper_Encryption.Hash
+    name: Hash
+  - uid: DotNetHelper_Encryption.Hash.PreEncryptData
+    name: Hash.PreEncryptData
+  - uid: DotNetHelper_Encryption.Hashing
+    name: Hashing
+  - uid: DotNetHelper_Encryption.HashProvider
+    name: HashProvider
+  - uid: DotNetHelper_Encryption.PrivateKey
+    name: PrivateKey
+  - uid: DotNetHelper_Encryption.PublicKey
+    name: PublicKey
+  - uid: DotNetHelper_Encryption.Symmetric
+    name: Symmetric
+  - uid: DotNetHelper_Encryption.SymmetricKeyData
+    name: SymmetricKeyData
+- uid: DotNetHelper_Encryption.Enums
+  name: DotNetHelper_Encryption.Enums
+  items:
+  - uid: DotNetHelper_Encryption.Enums.SymmetricProvider
+    name: SymmetricProvider

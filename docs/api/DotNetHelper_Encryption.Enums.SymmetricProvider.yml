@@ -1,0 +1,223 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Encryption.Enums.SymmetricProvider
+  commentId: T:DotNetHelper_Encryption.Enums.SymmetricProvider
+  id: SymmetricProvider
+  parent: DotNetHelper_Encryption.Enums
+  children:
+  - DotNetHelper_Encryption.Enums.SymmetricProvider.AES
+  - DotNetHelper_Encryption.Enums.SymmetricProvider.DES
+  - DotNetHelper_Encryption.Enums.SymmetricProvider.RC2
+  - DotNetHelper_Encryption.Enums.SymmetricProvider.Rijndael
+  - DotNetHelper_Encryption.Enums.SymmetricProvider.TripleDES
+  langs:
+  - csharp
+  - vb
+  name: SymmetricProvider
+  nameWithType: SymmetricProvider
+  fullName: DotNetHelper_Encryption.Enums.SymmetricProvider
+  type: Enum
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: SymmetricProvider
+    path: ../src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
+    startLine: 11
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption.Enums
+  summary: "\nSpecifies the symmetric encryption algorithm.\n"
+  example: []
+  syntax:
+    content: public enum SymmetricProvider
+    content.vb: Public Enum SymmetricProvider
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Encryption.Enums.SymmetricProvider.DES
+  commentId: F:DotNetHelper_Encryption.Enums.SymmetricProvider.DES
+  id: DES
+  parent: DotNetHelper_Encryption.Enums.SymmetricProvider
+  langs:
+  - csharp
+  - vb
+  name: DES
+  nameWithType: SymmetricProvider.DES
+  fullName: DotNetHelper_Encryption.Enums.SymmetricProvider.DES
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: DES
+    path: ../src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
+    startLine: 18
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption.Enums
+  summary: "\nThe PreEncryptData Encryption Standard provider supports a 64 bit key only.\n"
+  example: []
+  syntax:
+    content: DES = 0
+    return:
+      type: DotNetHelper_Encryption.Enums.SymmetricProvider
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Encryption.Enums.SymmetricProvider.RC2
+  commentId: F:DotNetHelper_Encryption.Enums.SymmetricProvider.RC2
+  id: RC2
+  parent: DotNetHelper_Encryption.Enums.SymmetricProvider
+  langs:
+  - csharp
+  - vb
+  name: RC2
+  nameWithType: SymmetricProvider.RC2
+  fullName: DotNetHelper_Encryption.Enums.SymmetricProvider.RC2
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: RC2
+    path: ../src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
+    startLine: 22
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption.Enums
+  summary: "\nThe Rivest Cipher 2 provider supports keys ranging from 40 to 128 bits, default is 128 bits.\n"
+  example: []
+  syntax:
+    content: RC2 = 1
+    return:
+      type: DotNetHelper_Encryption.Enums.SymmetricProvider
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Encryption.Enums.SymmetricProvider.Rijndael
+  commentId: F:DotNetHelper_Encryption.Enums.SymmetricProvider.Rijndael
+  id: Rijndael
+  parent: DotNetHelper_Encryption.Enums.SymmetricProvider
+  langs:
+  - csharp
+  - vb
+  name: Rijndael
+  nameWithType: SymmetricProvider.Rijndael
+  fullName: DotNetHelper_Encryption.Enums.SymmetricProvider.Rijndael
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Rijndael
+    path: ../src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
+    startLine: 26
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption.Enums
+  summary: "\nThe Rijndael (also known as AES) provider supports keys of 128, 192, or 256 bits with a default of 256 bits.\n"
+  example: []
+  syntax:
+    content: Rijndael = 2
+    return:
+      type: DotNetHelper_Encryption.Enums.SymmetricProvider
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Encryption.Enums.SymmetricProvider.TripleDES
+  commentId: F:DotNetHelper_Encryption.Enums.SymmetricProvider.TripleDES
+  id: TripleDES
+  parent: DotNetHelper_Encryption.Enums.SymmetricProvider
+  langs:
+  - csharp
+  - vb
+  name: TripleDES
+  nameWithType: SymmetricProvider.TripleDES
+  fullName: DotNetHelper_Encryption.Enums.SymmetricProvider.TripleDES
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: TripleDES
+    path: ../src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
+    startLine: 30
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption.Enums
+  summary: "\nThe TripleDES provider (also known as 3DES) supports keys of 128 or 192 bits with a default of 192 bits.\n"
+  example: []
+  syntax:
+    content: TripleDES = 3
+    return:
+      type: DotNetHelper_Encryption.Enums.SymmetricProvider
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Encryption.Enums.SymmetricProvider.AES
+  commentId: F:DotNetHelper_Encryption.Enums.SymmetricProvider.AES
+  id: AES
+  parent: DotNetHelper_Encryption.Enums.SymmetricProvider
+  langs:
+  - csharp
+  - vb
+  name: AES
+  nameWithType: SymmetricProvider.AES
+  fullName: DotNetHelper_Encryption.Enums.SymmetricProvider.AES
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: AES
+    path: ../src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
+    startLine: 35
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption.Enums
+  summary: "\nThe ARS \n"
+  example: []
+  syntax:
+    content: AES = 4
+    return:
+      type: DotNetHelper_Encryption.Enums.SymmetricProvider
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Encryption.Enums
+  commentId: N:DotNetHelper_Encryption.Enums
+  name: DotNetHelper_Encryption.Enums
+  nameWithType: DotNetHelper_Encryption.Enums
+  fullName: DotNetHelper_Encryption.Enums
+- uid: DotNetHelper_Encryption.Enums.SymmetricProvider
+  commentId: T:DotNetHelper_Encryption.Enums.SymmetricProvider
+  parent: DotNetHelper_Encryption.Enums
+  name: SymmetricProvider
+  nameWithType: SymmetricProvider
+  fullName: DotNetHelper_Encryption.Enums.SymmetricProvider

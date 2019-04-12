@@ -1,0 +1,1113 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric
+  commentId: T:DotNetHelper_Encryption.EncryptionAsymmetric
+  id: EncryptionAsymmetric
+  parent: DotNetHelper_Encryption
+  children:
+  - DotNetHelper_Encryption.EncryptionAsymmetric.#ctor
+  - DotNetHelper_Encryption.EncryptionAsymmetric.#ctor(System.Int32)
+  - DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.PrivateKey)
+  - DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData,System.String)
+  - DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.PublicKey)
+  - DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData,System.String)
+  - DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewKeyset
+  - DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewXmlKeyset
+  - DotNetHelper_Encryption.EncryptionAsymmetric.KeyContainerName
+  - DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeBits
+  - DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMaxBits
+  - DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMinBits
+  - DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeStepBits
+  langs:
+  - csharp
+  - vb
+  name: EncryptionAsymmetric
+  nameWithType: EncryptionAsymmetric
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: EncryptionAsymmetric
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 28
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nRepresents an object that performs asymmetric encryption.\n"
+  remarks: The only provider supported is the RSACryptoServiceProvider.
+  example: []
+  syntax:
+    content: public class EncryptionAsymmetric
+    content.vb: Public Class EncryptionAsymmetric
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.#ctor
+  commentId: M:DotNetHelper_Encryption.EncryptionAsymmetric.#ctor
+  id: '#ctor'
+  parent: DotNetHelper_Encryption.EncryptionAsymmetric
+  langs:
+  - csharp
+  - vb
+  name: EncryptionAsymmetric()
+  nameWithType: EncryptionAsymmetric.EncryptionAsymmetric()
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.EncryptionAsymmetric()
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: .ctor
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 37
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nInitializes a new instance of the Asymmetric class using the default key size.\n"
+  example: []
+  syntax:
+    content: public EncryptionAsymmetric()
+    content.vb: Public Sub New
+  overload: DotNetHelper_Encryption.EncryptionAsymmetric.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.#ctor(System.Int32)
+  commentId: M:DotNetHelper_Encryption.EncryptionAsymmetric.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: DotNetHelper_Encryption.EncryptionAsymmetric
+  langs:
+  - csharp
+  - vb
+  name: EncryptionAsymmetric(Int32)
+  nameWithType: EncryptionAsymmetric.EncryptionAsymmetric(Int32)
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.EncryptionAsymmetric(System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: .ctor
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 45
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nInitializes a new instance of the Asymmetric class using the specified key size.\n"
+  example: []
+  syntax:
+    content: public EncryptionAsymmetric(int keySize)
+    parameters:
+    - id: keySize
+      type: System.Int32
+    content.vb: Public Sub New(keySize As Integer)
+  overload: DotNetHelper_Encryption.EncryptionAsymmetric.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.KeyContainerName
+  commentId: P:DotNetHelper_Encryption.EncryptionAsymmetric.KeyContainerName
+  id: KeyContainerName
+  parent: DotNetHelper_Encryption.EncryptionAsymmetric
+  langs:
+  - csharp
+  - vb
+  name: KeyContainerName
+  nameWithType: EncryptionAsymmetric.KeyContainerName
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.KeyContainerName
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: KeyContainerName
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 58
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGets or sets the name of the key container used to store this key on disk. \n"
+  remarks: "\nThis is an unavoidable side effect of the underlying Microsoft CryptoAPI.\nhttp://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/q322/3/71.asp&amp;NoWebContent=1\n"
+  example: []
+  syntax:
+    content: public string KeyContainerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property KeyContainerName As String
+  overload: DotNetHelper_Encryption.EncryptionAsymmetric.KeyContainerName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeBits
+  commentId: P:DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeBits
+  id: KeySizeBits
+  parent: DotNetHelper_Encryption.EncryptionAsymmetric
+  langs:
+  - csharp
+  - vb
+  name: KeySizeBits
+  nameWithType: EncryptionAsymmetric.KeySizeBits
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeBits
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: KeySizeBits
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 63
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGets the current key size, in bits.\n"
+  example: []
+  syntax:
+    content: public int KeySizeBits { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property KeySizeBits As Integer
+  overload: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeBits*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMaxBits
+  commentId: P:DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMaxBits
+  id: KeySizeMaxBits
+  parent: DotNetHelper_Encryption.EncryptionAsymmetric
+  langs:
+  - csharp
+  - vb
+  name: KeySizeMaxBits
+  nameWithType: EncryptionAsymmetric.KeySizeMaxBits
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMaxBits
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: KeySizeMaxBits
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 68
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGets the maximum supported key size, in bits.\n"
+  example: []
+  syntax:
+    content: public int KeySizeMaxBits { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property KeySizeMaxBits As Integer
+  overload: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMaxBits*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMinBits
+  commentId: P:DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMinBits
+  id: KeySizeMinBits
+  parent: DotNetHelper_Encryption.EncryptionAsymmetric
+  langs:
+  - csharp
+  - vb
+  name: KeySizeMinBits
+  nameWithType: EncryptionAsymmetric.KeySizeMinBits
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMinBits
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: KeySizeMinBits
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 73
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGets the minimum supported key size, in bits.\n"
+  example: []
+  syntax:
+    content: public int KeySizeMinBits { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property KeySizeMinBits As Integer
+  overload: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMinBits*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeStepBits
+  commentId: P:DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeStepBits
+  id: KeySizeStepBits
+  parent: DotNetHelper_Encryption.EncryptionAsymmetric
+  langs:
+  - csharp
+  - vb
+  name: KeySizeStepBits
+  nameWithType: EncryptionAsymmetric.KeySizeStepBits
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeStepBits
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: KeySizeStepBits
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 78
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGets the valid key step sizes, in bits.\n"
+  example: []
+  syntax:
+    content: public int KeySizeStepBits { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property KeySizeStepBits As Integer
+  overload: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeStepBits*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewKeyset
+  commentId: M:DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewKeyset
+  id: GenerateNewKeyset
+  parent: DotNetHelper_Encryption.EncryptionAsymmetric
+  langs:
+  - csharp
+  - vb
+  name: GenerateNewKeyset()
+  nameWithType: EncryptionAsymmetric.GenerateNewKeyset()
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewKeyset()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: GenerateNewKeyset
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 86
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGenerates a new public/private key pair as objects.\n"
+  example: []
+  syntax:
+    content: public static KeyValuePair<PublicKey, PrivateKey> GenerateNewKeyset()
+    return:
+      type: System.Collections.Generic.KeyValuePair{DotNetHelper_Encryption.PublicKey,DotNetHelper_Encryption.PrivateKey}
+    content.vb: Public Shared Function GenerateNewKeyset As KeyValuePair(Of PublicKey, PrivateKey)
+  overload: DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewKeyset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewXmlKeyset
+  commentId: M:DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewXmlKeyset
+  id: GenerateNewXmlKeyset
+  parent: DotNetHelper_Encryption.EncryptionAsymmetric
+  langs:
+  - csharp
+  - vb
+  name: GenerateNewXmlKeyset()
+  nameWithType: EncryptionAsymmetric.GenerateNewXmlKeyset()
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewXmlKeyset()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: GenerateNewXmlKeyset
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 95
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGenerates a new public/private key pair as XML strings.\n"
+  example: []
+  syntax:
+    content: public static KeyValuePair<string, string> GenerateNewXmlKeyset()
+    return:
+      type: System.Collections.Generic.KeyValuePair{System.String,System.String}
+    content.vb: Public Shared Function GenerateNewXmlKeyset As KeyValuePair(Of String, String)
+  overload: DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewXmlKeyset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.PublicKey)
+  commentId: M:DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.PublicKey)
+  id: Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.PublicKey)
+  parent: DotNetHelper_Encryption.EncryptionAsymmetric
+  langs:
+  - csharp
+  - vb
+  name: Encrypt(Hash.PreEncryptData, PublicKey)
+  nameWithType: EncryptionAsymmetric.Encrypt(Hash.PreEncryptData, PublicKey)
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData, DotNetHelper_Encryption.PublicKey)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Encrypt
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 109
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nEncrypts data using the provided public key.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Encrypt(Hash.PreEncryptData data, PublicKey publicKey)
+    parameters:
+    - id: data
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    - id: publicKey
+      type: DotNetHelper_Encryption.PublicKey
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Encrypt(data As Hash.PreEncryptData, publicKey As PublicKey) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: data or publicKey is null.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData,System.String)
+  commentId: M:DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData,System.String)
+  id: Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData,System.String)
+  parent: DotNetHelper_Encryption.EncryptionAsymmetric
+  langs:
+  - csharp
+  - vb
+  name: Encrypt(Hash.PreEncryptData, String)
+  nameWithType: EncryptionAsymmetric.Encrypt(Hash.PreEncryptData, String)
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Encrypt
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 122
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nEncrypts data using the provided public key XML.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Encrypt(Hash.PreEncryptData data, string publicKeyXml)
+    parameters:
+    - id: data
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    - id: publicKeyXml
+      type: System.String
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Encrypt(data As Hash.PreEncryptData, publicKeyXml As String) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: data or publicKeyXml is null.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.PrivateKey)
+  commentId: M:DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.PrivateKey)
+  id: Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.PrivateKey)
+  parent: DotNetHelper_Encryption.EncryptionAsymmetric
+  langs:
+  - csharp
+  - vb
+  name: Decrypt(Hash.PreEncryptData, PrivateKey)
+  nameWithType: EncryptionAsymmetric.Decrypt(Hash.PreEncryptData, PrivateKey)
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData, DotNetHelper_Encryption.PrivateKey)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Decrypt
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 154
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nDecrypts data using the provided private key.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Decrypt(Hash.PreEncryptData data, PrivateKey privateKey)
+    parameters:
+    - id: data
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    - id: privateKey
+      type: DotNetHelper_Encryption.PrivateKey
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Decrypt(data As Hash.PreEncryptData, privateKey As PrivateKey) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: data or privateKey is null.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData,System.String)
+  commentId: M:DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData,System.String)
+  id: Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData,System.String)
+  parent: DotNetHelper_Encryption.EncryptionAsymmetric
+  langs:
+  - csharp
+  - vb
+  name: Decrypt(Hash.PreEncryptData, String)
+  nameWithType: EncryptionAsymmetric.Decrypt(Hash.PreEncryptData, String)
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Decrypt
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 167
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nDecrypts data using the provided private key XML.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Decrypt(Hash.PreEncryptData data, string privateKeyXml)
+    parameters:
+    - id: data
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    - id: privateKeyXml
+      type: System.String
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Decrypt(data As Hash.PreEncryptData, privateKeyXml As String) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: data or privateKeyXml is null.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DotNetHelper_Encryption
+  commentId: N:DotNetHelper_Encryption
+  name: DotNetHelper_Encryption
+  nameWithType: DotNetHelper_Encryption
+  fullName: DotNetHelper_Encryption
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.#ctor*
+  commentId: Overload:DotNetHelper_Encryption.EncryptionAsymmetric.#ctor
+  name: EncryptionAsymmetric
+  nameWithType: EncryptionAsymmetric.EncryptionAsymmetric
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.EncryptionAsymmetric
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.KeyContainerName*
+  commentId: Overload:DotNetHelper_Encryption.EncryptionAsymmetric.KeyContainerName
+  name: KeyContainerName
+  nameWithType: EncryptionAsymmetric.KeyContainerName
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.KeyContainerName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeBits*
+  commentId: Overload:DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeBits
+  name: KeySizeBits
+  nameWithType: EncryptionAsymmetric.KeySizeBits
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeBits
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMaxBits*
+  commentId: Overload:DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMaxBits
+  name: KeySizeMaxBits
+  nameWithType: EncryptionAsymmetric.KeySizeMaxBits
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMaxBits
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMinBits*
+  commentId: Overload:DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMinBits
+  name: KeySizeMinBits
+  nameWithType: EncryptionAsymmetric.KeySizeMinBits
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMinBits
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeStepBits*
+  commentId: Overload:DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeStepBits
+  name: KeySizeStepBits
+  nameWithType: EncryptionAsymmetric.KeySizeStepBits
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeStepBits
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewKeyset*
+  commentId: Overload:DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewKeyset
+  name: GenerateNewKeyset
+  nameWithType: EncryptionAsymmetric.GenerateNewKeyset
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewKeyset
+- uid: System.Collections.Generic.KeyValuePair{DotNetHelper_Encryption.PublicKey,DotNetHelper_Encryption.PrivateKey}
+  commentId: T:System.Collections.Generic.KeyValuePair{DotNetHelper_Encryption.PublicKey,DotNetHelper_Encryption.PrivateKey}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.KeyValuePair`2
+  name: KeyValuePair<PublicKey, PrivateKey>
+  nameWithType: KeyValuePair<PublicKey, PrivateKey>
+  fullName: System.Collections.Generic.KeyValuePair<DotNetHelper_Encryption.PublicKey, DotNetHelper_Encryption.PrivateKey>
+  nameWithType.vb: KeyValuePair(Of PublicKey, PrivateKey)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of DotNetHelper_Encryption.PublicKey, DotNetHelper_Encryption.PrivateKey)
+  name.vb: KeyValuePair(Of PublicKey, PrivateKey)
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DotNetHelper_Encryption.PublicKey
+    name: PublicKey
+    nameWithType: PublicKey
+    fullName: DotNetHelper_Encryption.PublicKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Encryption.PrivateKey
+    name: PrivateKey
+    nameWithType: PrivateKey
+    fullName: DotNetHelper_Encryption.PrivateKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DotNetHelper_Encryption.PublicKey
+    name: PublicKey
+    nameWithType: PublicKey
+    fullName: DotNetHelper_Encryption.PublicKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Encryption.PrivateKey
+    name: PrivateKey
+    nameWithType: PrivateKey
+    fullName: DotNetHelper_Encryption.PrivateKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.KeyValuePair`2
+  commentId: T:System.Collections.Generic.KeyValuePair`2
+  isExternal: true
+  name: KeyValuePair<TKey, TValue>
+  nameWithType: KeyValuePair<TKey, TValue>
+  fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>
+  nameWithType.vb: KeyValuePair(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of TKey, TValue)
+  name.vb: KeyValuePair(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewXmlKeyset*
+  commentId: Overload:DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewXmlKeyset
+  name: GenerateNewXmlKeyset
+  nameWithType: EncryptionAsymmetric.GenerateNewXmlKeyset
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewXmlKeyset
+- uid: System.Collections.Generic.KeyValuePair{System.String,System.String}
+  commentId: T:System.Collections.Generic.KeyValuePair{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.KeyValuePair`2
+  name: KeyValuePair<String, String>
+  nameWithType: KeyValuePair<String, String>
+  fullName: System.Collections.Generic.KeyValuePair<System.String, System.String>
+  nameWithType.vb: KeyValuePair(Of String, String)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of System.String, System.String)
+  name.vb: KeyValuePair(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt*
+  commentId: Overload:DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt
+  name: Encrypt
+  nameWithType: EncryptionAsymmetric.Encrypt
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData
+  commentId: T:DotNetHelper_Encryption.Hash.PreEncryptData
+  parent: DotNetHelper_Encryption
+  name: Hash.PreEncryptData
+  nameWithType: Hash.PreEncryptData
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData
+- uid: DotNetHelper_Encryption.PublicKey
+  commentId: T:DotNetHelper_Encryption.PublicKey
+  parent: DotNetHelper_Encryption
+  name: PublicKey
+  nameWithType: PublicKey
+  fullName: DotNetHelper_Encryption.PublicKey
+- uid: DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt*
+  commentId: Overload:DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt
+  name: Decrypt
+  nameWithType: EncryptionAsymmetric.Decrypt
+  fullName: DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt
+- uid: DotNetHelper_Encryption.PrivateKey
+  commentId: T:DotNetHelper_Encryption.PrivateKey
+  parent: DotNetHelper_Encryption
+  name: PrivateKey
+  nameWithType: PrivateKey
+  fullName: DotNetHelper_Encryption.PrivateKey

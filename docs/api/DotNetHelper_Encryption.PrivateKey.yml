@@ -1,0 +1,1025 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Encryption.PrivateKey
+  commentId: T:DotNetHelper_Encryption.PrivateKey
+  id: PrivateKey
+  parent: DotNetHelper_Encryption
+  children:
+  - DotNetHelper_Encryption.PrivateKey.#ctor
+  - DotNetHelper_Encryption.PrivateKey.#ctor(System.String)
+  - DotNetHelper_Encryption.PrivateKey.Coefficient
+  - DotNetHelper_Encryption.PrivateKey.Exponent
+  - DotNetHelper_Encryption.PrivateKey.ExportToConfigFile(System.String)
+  - DotNetHelper_Encryption.PrivateKey.ExportToXmlFile(System.String)
+  - DotNetHelper_Encryption.PrivateKey.LoadFromXml(System.String)
+  - DotNetHelper_Encryption.PrivateKey.Modulus
+  - DotNetHelper_Encryption.PrivateKey.PrimeExponentP
+  - DotNetHelper_Encryption.PrivateKey.PrimeExponentQ
+  - DotNetHelper_Encryption.PrivateKey.PrimeP
+  - DotNetHelper_Encryption.PrivateKey.PrimeQ
+  - DotNetHelper_Encryption.PrivateKey.PrivateExponent
+  - DotNetHelper_Encryption.PrivateKey.ToConfigSection
+  - DotNetHelper_Encryption.PrivateKey.ToParameters
+  - DotNetHelper_Encryption.PrivateKey.ToXml
+  langs:
+  - csharp
+  - vb
+  name: PrivateKey
+  nameWithType: PrivateKey
+  fullName: DotNetHelper_Encryption.PrivateKey
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: PrivateKey
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 418
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nRepresents a private encryption key.\n"
+  example: []
+  syntax:
+    content: public class PrivateKey
+    content.vb: Public Class PrivateKey
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Encryption.PrivateKey.Modulus
+  commentId: P:DotNetHelper_Encryption.PrivateKey.Modulus
+  id: Modulus
+  parent: DotNetHelper_Encryption.PrivateKey
+  langs:
+  - csharp
+  - vb
+  name: Modulus
+  nameWithType: PrivateKey.Modulus
+  fullName: DotNetHelper_Encryption.PrivateKey.Modulus
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Modulus
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 423
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public string Modulus { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Modulus As String
+  overload: DotNetHelper_Encryption.PrivateKey.Modulus*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.PrivateKey.Exponent
+  commentId: P:DotNetHelper_Encryption.PrivateKey.Exponent
+  id: Exponent
+  parent: DotNetHelper_Encryption.PrivateKey
+  langs:
+  - csharp
+  - vb
+  name: Exponent
+  nameWithType: PrivateKey.Exponent
+  fullName: DotNetHelper_Encryption.PrivateKey.Exponent
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Exponent
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 427
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public string Exponent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Exponent As String
+  overload: DotNetHelper_Encryption.PrivateKey.Exponent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.PrivateKey.PrimeP
+  commentId: P:DotNetHelper_Encryption.PrivateKey.PrimeP
+  id: PrimeP
+  parent: DotNetHelper_Encryption.PrivateKey
+  langs:
+  - csharp
+  - vb
+  name: PrimeP
+  nameWithType: PrivateKey.PrimeP
+  fullName: DotNetHelper_Encryption.PrivateKey.PrimeP
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: PrimeP
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 431
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public string PrimeP { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PrimeP As String
+  overload: DotNetHelper_Encryption.PrivateKey.PrimeP*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.PrivateKey.PrimeQ
+  commentId: P:DotNetHelper_Encryption.PrivateKey.PrimeQ
+  id: PrimeQ
+  parent: DotNetHelper_Encryption.PrivateKey
+  langs:
+  - csharp
+  - vb
+  name: PrimeQ
+  nameWithType: PrivateKey.PrimeQ
+  fullName: DotNetHelper_Encryption.PrivateKey.PrimeQ
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: PrimeQ
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 435
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public string PrimeQ { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PrimeQ As String
+  overload: DotNetHelper_Encryption.PrivateKey.PrimeQ*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.PrivateKey.PrimeExponentP
+  commentId: P:DotNetHelper_Encryption.PrivateKey.PrimeExponentP
+  id: PrimeExponentP
+  parent: DotNetHelper_Encryption.PrivateKey
+  langs:
+  - csharp
+  - vb
+  name: PrimeExponentP
+  nameWithType: PrivateKey.PrimeExponentP
+  fullName: DotNetHelper_Encryption.PrivateKey.PrimeExponentP
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: PrimeExponentP
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 439
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public string PrimeExponentP { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PrimeExponentP As String
+  overload: DotNetHelper_Encryption.PrivateKey.PrimeExponentP*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.PrivateKey.PrimeExponentQ
+  commentId: P:DotNetHelper_Encryption.PrivateKey.PrimeExponentQ
+  id: PrimeExponentQ
+  parent: DotNetHelper_Encryption.PrivateKey
+  langs:
+  - csharp
+  - vb
+  name: PrimeExponentQ
+  nameWithType: PrivateKey.PrimeExponentQ
+  fullName: DotNetHelper_Encryption.PrivateKey.PrimeExponentQ
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: PrimeExponentQ
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 443
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public string PrimeExponentQ { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PrimeExponentQ As String
+  overload: DotNetHelper_Encryption.PrivateKey.PrimeExponentQ*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.PrivateKey.Coefficient
+  commentId: P:DotNetHelper_Encryption.PrivateKey.Coefficient
+  id: Coefficient
+  parent: DotNetHelper_Encryption.PrivateKey
+  langs:
+  - csharp
+  - vb
+  name: Coefficient
+  nameWithType: PrivateKey.Coefficient
+  fullName: DotNetHelper_Encryption.PrivateKey.Coefficient
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Coefficient
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 447
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public string Coefficient { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Coefficient As String
+  overload: DotNetHelper_Encryption.PrivateKey.Coefficient*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.PrivateKey.PrivateExponent
+  commentId: P:DotNetHelper_Encryption.PrivateKey.PrivateExponent
+  id: PrivateExponent
+  parent: DotNetHelper_Encryption.PrivateKey
+  langs:
+  - csharp
+  - vb
+  name: PrivateExponent
+  nameWithType: PrivateKey.PrivateExponent
+  fullName: DotNetHelper_Encryption.PrivateKey.PrivateExponent
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: PrivateExponent
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 451
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public string PrivateExponent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PrivateExponent As String
+  overload: DotNetHelper_Encryption.PrivateKey.PrivateExponent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.PrivateKey.#ctor
+  commentId: M:DotNetHelper_Encryption.PrivateKey.#ctor
+  id: '#ctor'
+  parent: DotNetHelper_Encryption.PrivateKey
+  langs:
+  - csharp
+  - vb
+  name: PrivateKey()
+  nameWithType: PrivateKey.PrivateKey()
+  fullName: DotNetHelper_Encryption.PrivateKey.PrivateKey()
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: .ctor
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 456
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nInitializes a new instance of the PrivateKey class.\n"
+  example: []
+  syntax:
+    content: public PrivateKey()
+    content.vb: Public Sub New
+  overload: DotNetHelper_Encryption.PrivateKey.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.PrivateKey.#ctor(System.String)
+  commentId: M:DotNetHelper_Encryption.PrivateKey.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: DotNetHelper_Encryption.PrivateKey
+  langs:
+  - csharp
+  - vb
+  name: PrivateKey(String)
+  nameWithType: PrivateKey.PrivateKey(String)
+  fullName: DotNetHelper_Encryption.PrivateKey.PrivateKey(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: .ctor
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 464
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nInitializes a new instance of the PrivateKey class.\n"
+  example: []
+  syntax:
+    content: public PrivateKey(string keyXml)
+    parameters:
+    - id: keyXml
+      type: System.String
+    content.vb: Public Sub New(keyXml As String)
+  overload: DotNetHelper_Encryption.PrivateKey.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.PrivateKey.ToConfigSection
+  commentId: M:DotNetHelper_Encryption.PrivateKey.ToConfigSection
+  id: ToConfigSection
+  parent: DotNetHelper_Encryption.PrivateKey
+  langs:
+  - csharp
+  - vb
+  name: ToConfigSection()
+  nameWithType: PrivateKey.ToConfigSection()
+  fullName: DotNetHelper_Encryption.PrivateKey.ToConfigSection()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: ToConfigSection
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 474
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nReturns the *.config file XML section representing this private key.\n"
+  example: []
+  syntax:
+    content: public string ToConfigSection()
+    return:
+      type: System.String
+    content.vb: Public Function ToConfigSection As String
+  overload: DotNetHelper_Encryption.PrivateKey.ToConfigSection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.PrivateKey.ExportToConfigFile(System.String)
+  commentId: M:DotNetHelper_Encryption.PrivateKey.ExportToConfigFile(System.String)
+  id: ExportToConfigFile(System.String)
+  parent: DotNetHelper_Encryption.PrivateKey
+  langs:
+  - csharp
+  - vb
+  name: ExportToConfigFile(String)
+  nameWithType: PrivateKey.ExportToConfigFile(String)
+  fullName: DotNetHelper_Encryption.PrivateKey.ExportToConfigFile(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: ExportToConfigFile
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 491
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nWrites the *.config file representation of this private key to a file.\n"
+  example: []
+  syntax:
+    content: public void ExportToConfigFile(string filePath)
+    parameters:
+    - id: filePath
+      type: System.String
+    content.vb: Public Sub ExportToConfigFile(filePath As String)
+  overload: DotNetHelper_Encryption.PrivateKey.ExportToConfigFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.PrivateKey.LoadFromXml(System.String)
+  commentId: M:DotNetHelper_Encryption.PrivateKey.LoadFromXml(System.String)
+  id: LoadFromXml(System.String)
+  parent: DotNetHelper_Encryption.PrivateKey
+  langs:
+  - csharp
+  - vb
+  name: LoadFromXml(String)
+  nameWithType: PrivateKey.LoadFromXml(String)
+  fullName: DotNetHelper_Encryption.PrivateKey.LoadFromXml(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: LoadFromXml
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 502
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nLoads the private key from an XML string.\n"
+  example: []
+  syntax:
+    content: public void LoadFromXml(string keyXml)
+    parameters:
+    - id: keyXml
+      type: System.String
+    content.vb: Public Sub LoadFromXml(keyXml As String)
+  overload: DotNetHelper_Encryption.PrivateKey.LoadFromXml*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.PrivateKey.ToParameters
+  commentId: M:DotNetHelper_Encryption.PrivateKey.ToParameters
+  id: ToParameters
+  parent: DotNetHelper_Encryption.PrivateKey
+  langs:
+  - csharp
+  - vb
+  name: ToParameters()
+  nameWithType: PrivateKey.ToParameters()
+  fullName: DotNetHelper_Encryption.PrivateKey.ToParameters()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: ToParameters
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 517
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nConverts this private key to an RSAParameters object.\n"
+  example: []
+  syntax:
+    content: public RSAParameters ToParameters()
+    return:
+      type: System.Security.Cryptography.RSAParameters
+    content.vb: Public Function ToParameters As RSAParameters
+  overload: DotNetHelper_Encryption.PrivateKey.ToParameters*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.PrivateKey.ToXml
+  commentId: M:DotNetHelper_Encryption.PrivateKey.ToXml
+  id: ToXml
+  parent: DotNetHelper_Encryption.PrivateKey
+  langs:
+  - csharp
+  - vb
+  name: ToXml()
+  nameWithType: PrivateKey.ToXml()
+  fullName: DotNetHelper_Encryption.PrivateKey.ToXml()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: ToXml
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 536
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nConverts this private key to its XML string representation.\n"
+  example: []
+  syntax:
+    content: public string ToXml()
+    return:
+      type: System.String
+    content.vb: Public Function ToXml As String
+  overload: DotNetHelper_Encryption.PrivateKey.ToXml*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.PrivateKey.ExportToXmlFile(System.String)
+  commentId: M:DotNetHelper_Encryption.PrivateKey.ExportToXmlFile(System.String)
+  id: ExportToXmlFile(System.String)
+  parent: DotNetHelper_Encryption.PrivateKey
+  langs:
+  - csharp
+  - vb
+  name: ExportToXmlFile(String)
+  nameWithType: PrivateKey.ExportToXmlFile(String)
+  fullName: DotNetHelper_Encryption.PrivateKey.ExportToXmlFile(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Asymmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: ExportToXmlFile
+    path: ../src/DotNetHelper-Encryption/Asymmetric.cs
+    startLine: 555
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nWrites the XML representation of this private key to a file.\n"
+  example: []
+  syntax:
+    content: public void ExportToXmlFile(string filePath)
+    parameters:
+    - id: filePath
+      type: System.String
+    content.vb: Public Sub ExportToXmlFile(filePath As String)
+  overload: DotNetHelper_Encryption.PrivateKey.ExportToXmlFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DotNetHelper_Encryption
+  commentId: N:DotNetHelper_Encryption
+  name: DotNetHelper_Encryption
+  nameWithType: DotNetHelper_Encryption
+  fullName: DotNetHelper_Encryption
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Encryption.PrivateKey.Modulus*
+  commentId: Overload:DotNetHelper_Encryption.PrivateKey.Modulus
+  name: Modulus
+  nameWithType: PrivateKey.Modulus
+  fullName: DotNetHelper_Encryption.PrivateKey.Modulus
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Encryption.PrivateKey.Exponent*
+  commentId: Overload:DotNetHelper_Encryption.PrivateKey.Exponent
+  name: Exponent
+  nameWithType: PrivateKey.Exponent
+  fullName: DotNetHelper_Encryption.PrivateKey.Exponent
+- uid: DotNetHelper_Encryption.PrivateKey.PrimeP*
+  commentId: Overload:DotNetHelper_Encryption.PrivateKey.PrimeP
+  name: PrimeP
+  nameWithType: PrivateKey.PrimeP
+  fullName: DotNetHelper_Encryption.PrivateKey.PrimeP
+- uid: DotNetHelper_Encryption.PrivateKey.PrimeQ*
+  commentId: Overload:DotNetHelper_Encryption.PrivateKey.PrimeQ
+  name: PrimeQ
+  nameWithType: PrivateKey.PrimeQ
+  fullName: DotNetHelper_Encryption.PrivateKey.PrimeQ
+- uid: DotNetHelper_Encryption.PrivateKey.PrimeExponentP*
+  commentId: Overload:DotNetHelper_Encryption.PrivateKey.PrimeExponentP
+  name: PrimeExponentP
+  nameWithType: PrivateKey.PrimeExponentP
+  fullName: DotNetHelper_Encryption.PrivateKey.PrimeExponentP
+- uid: DotNetHelper_Encryption.PrivateKey.PrimeExponentQ*
+  commentId: Overload:DotNetHelper_Encryption.PrivateKey.PrimeExponentQ
+  name: PrimeExponentQ
+  nameWithType: PrivateKey.PrimeExponentQ
+  fullName: DotNetHelper_Encryption.PrivateKey.PrimeExponentQ
+- uid: DotNetHelper_Encryption.PrivateKey.Coefficient*
+  commentId: Overload:DotNetHelper_Encryption.PrivateKey.Coefficient
+  name: Coefficient
+  nameWithType: PrivateKey.Coefficient
+  fullName: DotNetHelper_Encryption.PrivateKey.Coefficient
+- uid: DotNetHelper_Encryption.PrivateKey.PrivateExponent*
+  commentId: Overload:DotNetHelper_Encryption.PrivateKey.PrivateExponent
+  name: PrivateExponent
+  nameWithType: PrivateKey.PrivateExponent
+  fullName: DotNetHelper_Encryption.PrivateKey.PrivateExponent
+- uid: DotNetHelper_Encryption.PrivateKey.#ctor*
+  commentId: Overload:DotNetHelper_Encryption.PrivateKey.#ctor
+  name: PrivateKey
+  nameWithType: PrivateKey.PrivateKey
+  fullName: DotNetHelper_Encryption.PrivateKey.PrivateKey
+- uid: DotNetHelper_Encryption.PrivateKey.ToConfigSection*
+  commentId: Overload:DotNetHelper_Encryption.PrivateKey.ToConfigSection
+  name: ToConfigSection
+  nameWithType: PrivateKey.ToConfigSection
+  fullName: DotNetHelper_Encryption.PrivateKey.ToConfigSection
+- uid: DotNetHelper_Encryption.PrivateKey.ExportToConfigFile*
+  commentId: Overload:DotNetHelper_Encryption.PrivateKey.ExportToConfigFile
+  name: ExportToConfigFile
+  nameWithType: PrivateKey.ExportToConfigFile
+  fullName: DotNetHelper_Encryption.PrivateKey.ExportToConfigFile
+- uid: DotNetHelper_Encryption.PrivateKey.LoadFromXml*
+  commentId: Overload:DotNetHelper_Encryption.PrivateKey.LoadFromXml
+  name: LoadFromXml
+  nameWithType: PrivateKey.LoadFromXml
+  fullName: DotNetHelper_Encryption.PrivateKey.LoadFromXml
+- uid: DotNetHelper_Encryption.PrivateKey.ToParameters*
+  commentId: Overload:DotNetHelper_Encryption.PrivateKey.ToParameters
+  name: ToParameters
+  nameWithType: PrivateKey.ToParameters
+  fullName: DotNetHelper_Encryption.PrivateKey.ToParameters
+- uid: System.Security.Cryptography.RSAParameters
+  commentId: T:System.Security.Cryptography.RSAParameters
+  parent: System.Security.Cryptography
+  isExternal: true
+  name: RSAParameters
+  nameWithType: RSAParameters
+  fullName: System.Security.Cryptography.RSAParameters
+- uid: System.Security.Cryptography
+  commentId: N:System.Security.Cryptography
+  isExternal: true
+  name: System.Security.Cryptography
+  nameWithType: System.Security.Cryptography
+  fullName: System.Security.Cryptography
+- uid: DotNetHelper_Encryption.PrivateKey.ToXml*
+  commentId: Overload:DotNetHelper_Encryption.PrivateKey.ToXml
+  name: ToXml
+  nameWithType: PrivateKey.ToXml
+  fullName: DotNetHelper_Encryption.PrivateKey.ToXml
+- uid: DotNetHelper_Encryption.PrivateKey.ExportToXmlFile*
+  commentId: Overload:DotNetHelper_Encryption.PrivateKey.ExportToXmlFile
+  name: ExportToXmlFile
+  nameWithType: PrivateKey.ExportToXmlFile
+  fullName: DotNetHelper_Encryption.PrivateKey.ExportToXmlFile

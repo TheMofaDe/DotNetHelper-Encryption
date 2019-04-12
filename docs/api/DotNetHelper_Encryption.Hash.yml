@@ -1,0 +1,840 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Encryption.Hash
+  commentId: T:DotNetHelper_Encryption.Hash
+  id: Hash
+  parent: DotNetHelper_Encryption
+  children:
+  - DotNetHelper_Encryption.Hash.#ctor(DotNetHelper_Encryption.HashProvider)
+  - DotNetHelper_Encryption.Hash.Calculate(DotNetHelper_Encryption.Hash.PreEncryptData)
+  - DotNetHelper_Encryption.Hash.Calculate(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.Hash.PreEncryptData)
+  - DotNetHelper_Encryption.Hash.Calculate(System.IO.Stream)
+  - DotNetHelper_Encryption.Hash.Calculate(System.IO.Stream,System.IProgress{System.Int32})
+  - DotNetHelper_Encryption.Hash.Dispose
+  - DotNetHelper_Encryption.Hash.Dispose(System.Boolean)
+  - DotNetHelper_Encryption.Hash.Value
+  langs:
+  - csharp
+  - vb
+  name: Hash
+  nameWithType: Hash
+  fullName: DotNetHelper_Encryption.Hash
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Hash
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 225
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nRepresents an object that performs hashing.\n"
+  example: []
+  syntax:
+    content: 'public class Hash : IDisposable'
+    content.vb: >-
+      Public Class Hash
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Encryption.Hash.#ctor(DotNetHelper_Encryption.HashProvider)
+  commentId: M:DotNetHelper_Encryption.Hash.#ctor(DotNetHelper_Encryption.HashProvider)
+  id: '#ctor(DotNetHelper_Encryption.HashProvider)'
+  parent: DotNetHelper_Encryption.Hash
+  langs:
+  - csharp
+  - vb
+  name: Hash(HashProvider)
+  nameWithType: Hash.Hash(HashProvider)
+  fullName: DotNetHelper_Encryption.Hash.Hash(DotNetHelper_Encryption.HashProvider)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: .ctor
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 232
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nInitializes a new instance of the Hash class with the specified hash provider.\n"
+  example: []
+  syntax:
+    content: public Hash(HashProvider provider)
+    parameters:
+    - id: provider
+      type: DotNetHelper_Encryption.HashProvider
+    content.vb: Public Sub New(provider As HashProvider)
+  overload: DotNetHelper_Encryption.Hash.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Hash.Value
+  commentId: P:DotNetHelper_Encryption.Hash.Value
+  id: Value
+  parent: DotNetHelper_Encryption.Hash
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Hash.Value
+  fullName: DotNetHelper_Encryption.Hash.Value
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Value
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 240
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGets the previously calculated hash value.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Value { get; }
+    parameters: []
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public ReadOnly Property Value As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.Hash.Value*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DotNetHelper_Encryption.Hash.Calculate(System.IO.Stream)
+  commentId: M:DotNetHelper_Encryption.Hash.Calculate(System.IO.Stream)
+  id: Calculate(System.IO.Stream)
+  parent: DotNetHelper_Encryption.Hash
+  langs:
+  - csharp
+  - vb
+  name: Calculate(Stream)
+  nameWithType: Hash.Calculate(Stream)
+  fullName: DotNetHelper_Encryption.Hash.Calculate(System.IO.Stream)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Calculate
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 245
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nCalculates the hash on a stream of arbitrary length.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Calculate(Stream stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Calculate(stream As Stream) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.Hash.Calculate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Hash.Calculate(DotNetHelper_Encryption.Hash.PreEncryptData)
+  commentId: M:DotNetHelper_Encryption.Hash.Calculate(DotNetHelper_Encryption.Hash.PreEncryptData)
+  id: Calculate(DotNetHelper_Encryption.Hash.PreEncryptData)
+  parent: DotNetHelper_Encryption.Hash
+  langs:
+  - csharp
+  - vb
+  name: Calculate(Hash.PreEncryptData)
+  nameWithType: Hash.Calculate(Hash.PreEncryptData)
+  fullName: DotNetHelper_Encryption.Hash.Calculate(DotNetHelper_Encryption.Hash.PreEncryptData)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Calculate
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 255
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nCalculates the hash for fixed length data.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Calculate(Hash.PreEncryptData data)
+    parameters:
+    - id: data
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Calculate(data As Hash.PreEncryptData) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.Hash.Calculate*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: data is null.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Hash.Calculate(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.Hash.PreEncryptData)
+  commentId: M:DotNetHelper_Encryption.Hash.Calculate(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.Hash.PreEncryptData)
+  id: Calculate(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.Hash.PreEncryptData)
+  parent: DotNetHelper_Encryption.Hash
+  langs:
+  - csharp
+  - vb
+  name: Calculate(Hash.PreEncryptData, Hash.PreEncryptData)
+  nameWithType: Hash.Calculate(Hash.PreEncryptData, Hash.PreEncryptData)
+  fullName: DotNetHelper_Encryption.Hash.Calculate(DotNetHelper_Encryption.Hash.PreEncryptData, DotNetHelper_Encryption.Hash.PreEncryptData)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Calculate
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 266
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nCalculates the hash for fixed length data with a prefixed salt value.\n"
+  remarks: A &quot;salt&quot; value is random data prefixed to every hashed value to prevent common dictionary attacks.
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Calculate(Hash.PreEncryptData data, Hash.PreEncryptData salt)
+    parameters:
+    - id: data
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    - id: salt
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Calculate(data As Hash.PreEncryptData, salt As Hash.PreEncryptData) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.Hash.Calculate*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: data or salt is null.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Hash.Calculate(System.IO.Stream,System.IProgress{System.Int32})
+  commentId: M:DotNetHelper_Encryption.Hash.Calculate(System.IO.Stream,System.IProgress{System.Int32})
+  id: Calculate(System.IO.Stream,System.IProgress{System.Int32})
+  parent: DotNetHelper_Encryption.Hash
+  langs:
+  - csharp
+  - vb
+  name: Calculate(Stream, IProgress<Int32>)
+  nameWithType: Hash.Calculate(Stream, IProgress<Int32>)
+  fullName: DotNetHelper_Encryption.Hash.Calculate(System.IO.Stream, System.IProgress<System.Int32>)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Calculate
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 286
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nCalculates the hash on a seekable stream while reporting progress.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Calculate(Stream stream, IProgress<int> progress)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    - id: progress
+      type: System.IProgress{System.Int32}
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Calculate(stream As Stream, progress As IProgress(Of Integer)) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.Hash.Calculate*
+  nameWithType.vb: Hash.Calculate(Stream, IProgress(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DotNetHelper_Encryption.Hash.Calculate(System.IO.Stream, System.IProgress(Of System.Int32))
+  name.vb: Calculate(Stream, IProgress(Of Int32))
+- uid: DotNetHelper_Encryption.Hash.Dispose
+  commentId: M:DotNetHelper_Encryption.Hash.Dispose
+  id: Dispose
+  parent: DotNetHelper_Encryption.Hash
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Hash.Dispose()
+  fullName: DotNetHelper_Encryption.Hash.Dispose()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Dispose
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 333
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nPerforms application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.\n"
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: DotNetHelper_Encryption.Hash.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Hash.Dispose(System.Boolean)
+  commentId: M:DotNetHelper_Encryption.Hash.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: DotNetHelper_Encryption.Hash
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: Hash.Dispose(Boolean)
+  fullName: DotNetHelper_Encryption.Hash.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Dispose
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 344
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nPerforms application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.\n"
+  example: []
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: true to release both managed and unmanaged resources; false to release only unmanaged resources.
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+  overload: DotNetHelper_Encryption.Hash.Dispose*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+references:
+- uid: DotNetHelper_Encryption
+  commentId: N:DotNetHelper_Encryption
+  name: DotNetHelper_Encryption
+  nameWithType: DotNetHelper_Encryption
+  fullName: DotNetHelper_Encryption
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Encryption.Hash.#ctor*
+  commentId: Overload:DotNetHelper_Encryption.Hash.#ctor
+  name: Hash
+  nameWithType: Hash.Hash
+  fullName: DotNetHelper_Encryption.Hash.Hash
+- uid: DotNetHelper_Encryption.HashProvider
+  commentId: T:DotNetHelper_Encryption.HashProvider
+  parent: DotNetHelper_Encryption
+  name: HashProvider
+  nameWithType: HashProvider
+  fullName: DotNetHelper_Encryption.HashProvider
+- uid: DotNetHelper_Encryption.Hash.Value*
+  commentId: Overload:DotNetHelper_Encryption.Hash.Value
+  name: Value
+  nameWithType: Hash.Value
+  fullName: DotNetHelper_Encryption.Hash.Value
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData
+  commentId: T:DotNetHelper_Encryption.Hash.PreEncryptData
+  parent: DotNetHelper_Encryption
+  name: Hash.PreEncryptData
+  nameWithType: Hash.PreEncryptData
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData
+- uid: DotNetHelper_Encryption.Hash.Calculate*
+  commentId: Overload:DotNetHelper_Encryption.Hash.Calculate
+  name: Calculate
+  nameWithType: Hash.Calculate
+  fullName: DotNetHelper_Encryption.Hash.Calculate
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+- uid: System.IProgress{System.Int32}
+  commentId: T:System.IProgress{System.Int32}
+  parent: System
+  definition: System.IProgress`1
+  name: IProgress<Int32>
+  nameWithType: IProgress<Int32>
+  fullName: System.IProgress<System.Int32>
+  nameWithType.vb: IProgress(Of Int32)
+  fullName.vb: System.IProgress(Of System.Int32)
+  name.vb: IProgress(Of Int32)
+  spec.csharp:
+  - uid: System.IProgress`1
+    name: IProgress
+    nameWithType: IProgress
+    fullName: System.IProgress
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IProgress`1
+    name: IProgress
+    nameWithType: IProgress
+    fullName: System.IProgress
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IProgress`1
+  commentId: T:System.IProgress`1
+  isExternal: true
+  name: IProgress<T>
+  nameWithType: IProgress<T>
+  fullName: System.IProgress<T>
+  nameWithType.vb: IProgress(Of T)
+  fullName.vb: System.IProgress(Of T)
+  name.vb: IProgress(Of T)
+  spec.csharp:
+  - uid: System.IProgress`1
+    name: IProgress
+    nameWithType: IProgress
+    fullName: System.IProgress
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IProgress`1
+    name: IProgress
+    nameWithType: IProgress
+    fullName: System.IProgress
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Encryption.Hash.Dispose*
+  commentId: Overload:DotNetHelper_Encryption.Hash.Dispose
+  name: Dispose
+  nameWithType: Hash.Dispose
+  fullName: DotNetHelper_Encryption.Hash.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

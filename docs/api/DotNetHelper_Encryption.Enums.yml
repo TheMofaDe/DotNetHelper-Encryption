@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Encryption.Enums
+  commentId: N:DotNetHelper_Encryption.Enums
+  id: DotNetHelper_Encryption.Enums
+  children:
+  - DotNetHelper_Encryption.Enums.SymmetricProvider
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Encryption.Enums
+  nameWithType: DotNetHelper_Encryption.Enums
+  fullName: DotNetHelper_Encryption.Enums
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Encryption
+references:
+- uid: DotNetHelper_Encryption.Enums.SymmetricProvider
+  commentId: T:DotNetHelper_Encryption.Enums.SymmetricProvider
+  parent: DotNetHelper_Encryption.Enums
+  name: SymmetricProvider
+  nameWithType: SymmetricProvider
+  fullName: DotNetHelper_Encryption.Enums.SymmetricProvider
+- uid: DotNetHelper_Encryption.Enums
+  commentId: N:DotNetHelper_Encryption.Enums
+  name: DotNetHelper_Encryption.Enums
+  nameWithType: DotNetHelper_Encryption.Enums
+  fullName: DotNetHelper_Encryption.Enums

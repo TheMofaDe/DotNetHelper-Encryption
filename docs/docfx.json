@@ -59,7 +59,7 @@
       //    "_appLogoPath": "logo/lucene-net-color.png",
       "_appFooter": "Copyright © 2019 Joseph McNeal Jr"
     },
-    "dest": "_site",
+    "dest": "./",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [ "statictoc" ],

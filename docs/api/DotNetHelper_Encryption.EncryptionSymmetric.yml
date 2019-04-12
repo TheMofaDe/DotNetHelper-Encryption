@@ -1,0 +1,441 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Encryption.EncryptionSymmetric
+  commentId: T:DotNetHelper_Encryption.EncryptionSymmetric
+  id: EncryptionSymmetric
+  parent: DotNetHelper_Encryption
+  children:
+  - DotNetHelper_Encryption.EncryptionSymmetric.Create(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)
+  langs:
+  - csharp
+  - vb
+  name: EncryptionSymmetric
+  nameWithType: EncryptionSymmetric
+  fullName: DotNetHelper_Encryption.EncryptionSymmetric
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: EncryptionSymmetric
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 21
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nProvides access to factory methods for creating SymmetricAlgorithm instances.\n"
+  example: []
+  syntax:
+    content: public static class EncryptionSymmetric
+    content.vb: Public Module EncryptionSymmetric
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DotNetHelper_Encryption.EncryptionSymmetric.Create(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)
+  commentId: M:DotNetHelper_Encryption.EncryptionSymmetric.Create(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)
+  id: Create(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)
+  parent: DotNetHelper_Encryption.EncryptionSymmetric
+  langs:
+  - csharp
+  - vb
+  name: Create(SymmetricProvider, CipherMode, PaddingMode)
+  nameWithType: EncryptionSymmetric.Create(SymmetricProvider, CipherMode, PaddingMode)
+  fullName: DotNetHelper_Encryption.EncryptionSymmetric.Create(DotNetHelper_Encryption.Enums.SymmetricProvider, System.Security.Cryptography.CipherMode, System.Security.Cryptography.PaddingMode)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Create
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 29
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nCreates a new instance of the SymmetricAlgorithm class based on the specified provider.\n"
+  example: []
+  syntax:
+    content: public static SymmetricAlgorithm Create(SymmetricProvider provider, CipherMode cipherMode = CipherMode.ECB, PaddingMode padding = PaddingMode.PKCS7)
+    parameters:
+    - id: provider
+      type: DotNetHelper_Encryption.Enums.SymmetricProvider
+      description: Provides the type of symmetric algorithm to create.
+    - id: cipherMode
+      type: System.Security.Cryptography.CipherMode
+    - id: padding
+      type: System.Security.Cryptography.PaddingMode
+    return:
+      type: System.Security.Cryptography.SymmetricAlgorithm
+      description: The SymmetricAlgorithm object.
+    content.vb: Public Shared Function Create(provider As SymmetricProvider, cipherMode As CipherMode = CipherMode.ECB, padding As PaddingMode = PaddingMode.PKCS7) As SymmetricAlgorithm
+  overload: DotNetHelper_Encryption.EncryptionSymmetric.Create*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: The provider is unknown.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: DotNetHelper_Encryption
+  commentId: N:DotNetHelper_Encryption
+  name: DotNetHelper_Encryption
+  nameWithType: DotNetHelper_Encryption
+  fullName: DotNetHelper_Encryption
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+- uid: DotNetHelper_Encryption.EncryptionSymmetric.Create*
+  commentId: Overload:DotNetHelper_Encryption.EncryptionSymmetric.Create
+  name: Create
+  nameWithType: EncryptionSymmetric.Create
+  fullName: DotNetHelper_Encryption.EncryptionSymmetric.Create
+- uid: DotNetHelper_Encryption.Enums.SymmetricProvider
+  commentId: T:DotNetHelper_Encryption.Enums.SymmetricProvider
+  parent: DotNetHelper_Encryption.Enums
+  name: SymmetricProvider
+  nameWithType: SymmetricProvider
+  fullName: DotNetHelper_Encryption.Enums.SymmetricProvider
+- uid: System.Security.Cryptography.CipherMode
+  commentId: T:System.Security.Cryptography.CipherMode
+  parent: System.Security.Cryptography
+  isExternal: true
+  name: CipherMode
+  nameWithType: CipherMode
+  fullName: System.Security.Cryptography.CipherMode
+- uid: System.Security.Cryptography.PaddingMode
+  commentId: T:System.Security.Cryptography.PaddingMode
+  parent: System.Security.Cryptography
+  isExternal: true
+  name: PaddingMode
+  nameWithType: PaddingMode
+  fullName: System.Security.Cryptography.PaddingMode
+- uid: System.Security.Cryptography.SymmetricAlgorithm
+  commentId: T:System.Security.Cryptography.SymmetricAlgorithm
+  parent: System.Security.Cryptography
+  isExternal: true
+  name: SymmetricAlgorithm
+  nameWithType: SymmetricAlgorithm
+  fullName: System.Security.Cryptography.SymmetricAlgorithm
+- uid: DotNetHelper_Encryption.Enums
+  commentId: N:DotNetHelper_Encryption.Enums
+  name: DotNetHelper_Encryption.Enums
+  nameWithType: DotNetHelper_Encryption.Enums
+  fullName: DotNetHelper_Encryption.Enums
+- uid: System.Security.Cryptography
+  commentId: N:System.Security.Cryptography
+  isExternal: true
+  name: System.Security.Cryptography
+  nameWithType: System.Security.Cryptography
+  fullName: System.Security.Cryptography

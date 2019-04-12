@@ -1,0 +1,258 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Encryption.HashProvider
+  commentId: T:DotNetHelper_Encryption.HashProvider
+  id: HashProvider
+  parent: DotNetHelper_Encryption
+  children:
+  - DotNetHelper_Encryption.HashProvider.CRC32
+  - DotNetHelper_Encryption.HashProvider.MD5
+  - DotNetHelper_Encryption.HashProvider.SHA1
+  - DotNetHelper_Encryption.HashProvider.SHA256
+  - DotNetHelper_Encryption.HashProvider.SHA384
+  - DotNetHelper_Encryption.HashProvider.SHA512
+  langs:
+  - csharp
+  - vb
+  name: HashProvider
+  nameWithType: HashProvider
+  fullName: DotNetHelper_Encryption.HashProvider
+  type: Enum
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: HashProvider
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 17
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nSpecifies the type of hash.\n"
+  example: []
+  syntax:
+    content: public enum HashProvider
+    content.vb: Public Enum HashProvider
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Encryption.HashProvider.CRC32
+  commentId: F:DotNetHelper_Encryption.HashProvider.CRC32
+  id: CRC32
+  parent: DotNetHelper_Encryption.HashProvider
+  langs:
+  - csharp
+  - vb
+  name: CRC32
+  nameWithType: HashProvider.CRC32
+  fullName: DotNetHelper_Encryption.HashProvider.CRC32
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: CRC32
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 24
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nCyclic Redundancy Check provider, 32-bit.\n"
+  example: []
+  syntax:
+    content: CRC32 = 0
+    return:
+      type: DotNetHelper_Encryption.HashProvider
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Encryption.HashProvider.SHA1
+  commentId: F:DotNetHelper_Encryption.HashProvider.SHA1
+  id: SHA1
+  parent: DotNetHelper_Encryption.HashProvider
+  langs:
+  - csharp
+  - vb
+  name: SHA1
+  nameWithType: HashProvider.SHA1
+  fullName: DotNetHelper_Encryption.HashProvider.SHA1
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: SHA1
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 29
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nSecure Hashing Algorithm provider, SHA-1 variant, 160-bit.\n"
+  example: []
+  syntax:
+    content: SHA1 = 1
+    return:
+      type: DotNetHelper_Encryption.HashProvider
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Encryption.HashProvider.SHA256
+  commentId: F:DotNetHelper_Encryption.HashProvider.SHA256
+  id: SHA256
+  parent: DotNetHelper_Encryption.HashProvider
+  langs:
+  - csharp
+  - vb
+  name: SHA256
+  nameWithType: HashProvider.SHA256
+  fullName: DotNetHelper_Encryption.HashProvider.SHA256
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: SHA256
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 34
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nSecure Hashing Algorithm provider, SHA-2 variant, 256-bit.\n"
+  example: []
+  syntax:
+    content: SHA256 = 2
+    return:
+      type: DotNetHelper_Encryption.HashProvider
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Encryption.HashProvider.SHA384
+  commentId: F:DotNetHelper_Encryption.HashProvider.SHA384
+  id: SHA384
+  parent: DotNetHelper_Encryption.HashProvider
+  langs:
+  - csharp
+  - vb
+  name: SHA384
+  nameWithType: HashProvider.SHA384
+  fullName: DotNetHelper_Encryption.HashProvider.SHA384
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: SHA384
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 39
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nSecure Hashing Algorithm provider, SHA-2 variant, 384-bit.\n"
+  example: []
+  syntax:
+    content: SHA384 = 3
+    return:
+      type: DotNetHelper_Encryption.HashProvider
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Encryption.HashProvider.SHA512
+  commentId: F:DotNetHelper_Encryption.HashProvider.SHA512
+  id: SHA512
+  parent: DotNetHelper_Encryption.HashProvider
+  langs:
+  - csharp
+  - vb
+  name: SHA512
+  nameWithType: HashProvider.SHA512
+  fullName: DotNetHelper_Encryption.HashProvider.SHA512
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: SHA512
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 44
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nSecure Hashing Algorithm provider, SHA-2 variant, 512-bit.\n"
+  example: []
+  syntax:
+    content: SHA512 = 4
+    return:
+      type: DotNetHelper_Encryption.HashProvider
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Encryption.HashProvider.MD5
+  commentId: F:DotNetHelper_Encryption.HashProvider.MD5
+  id: MD5
+  parent: DotNetHelper_Encryption.HashProvider
+  langs:
+  - csharp
+  - vb
+  name: MD5
+  nameWithType: HashProvider.MD5
+  fullName: DotNetHelper_Encryption.HashProvider.MD5
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Hashing.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: MD5
+    path: ../src/DotNetHelper-Encryption/Hashing.cs
+    startLine: 49
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nMessage Digest algorithm 5, 128-bit.\n"
+  example: []
+  syntax:
+    content: MD5 = 5
+    return:
+      type: DotNetHelper_Encryption.HashProvider
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Encryption
+  commentId: N:DotNetHelper_Encryption
+  name: DotNetHelper_Encryption
+  nameWithType: DotNetHelper_Encryption
+  fullName: DotNetHelper_Encryption
+- uid: DotNetHelper_Encryption.HashProvider
+  commentId: T:DotNetHelper_Encryption.HashProvider
+  parent: DotNetHelper_Encryption
+  name: HashProvider
+  nameWithType: HashProvider
+  fullName: DotNetHelper_Encryption.HashProvider

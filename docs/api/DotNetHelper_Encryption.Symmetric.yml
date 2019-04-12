@@ -1,0 +1,1088 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Encryption.Symmetric
+  commentId: T:DotNetHelper_Encryption.Symmetric
+  id: Symmetric
+  parent: DotNetHelper_Encryption
+  children:
+  - DotNetHelper_Encryption.Symmetric.#ctor(DotNetHelper_Encryption.Enums.SymmetricProvider)
+  - DotNetHelper_Encryption.Symmetric.#ctor(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Boolean)
+  - DotNetHelper_Encryption.Symmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData)
+  - DotNetHelper_Encryption.Symmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.SymmetricKeyData)
+  - DotNetHelper_Encryption.Symmetric.Decrypt(System.IO.Stream)
+  - DotNetHelper_Encryption.Symmetric.Decrypt(System.IO.Stream,DotNetHelper_Encryption.SymmetricKeyData)
+  - DotNetHelper_Encryption.Symmetric.Dispose
+  - DotNetHelper_Encryption.Symmetric.Dispose(System.Boolean)
+  - DotNetHelper_Encryption.Symmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData)
+  - DotNetHelper_Encryption.Symmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.SymmetricKeyData)
+  - DotNetHelper_Encryption.Symmetric.Encrypt(System.IO.Stream)
+  - DotNetHelper_Encryption.Symmetric.Encrypt(System.IO.Stream,DotNetHelper_Encryption.SymmetricKeyData)
+  - DotNetHelper_Encryption.Symmetric.Encrypt(System.IO.Stream,DotNetHelper_Encryption.SymmetricKeyData,DotNetHelper_Encryption.SymmetricKeyData)
+  - DotNetHelper_Encryption.Symmetric.IntializationVector
+  - DotNetHelper_Encryption.Symmetric.Key
+  langs:
+  - csharp
+  - vb
+  name: Symmetric
+  nameWithType: Symmetric
+  fullName: DotNetHelper_Encryption.Symmetric
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Symmetric
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 65
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nRepresents an object that performs symmetric encryption.\n"
+  remarks: Symmetric encryption uses a single key to encrypt and decrypt. Both parties (encryptor and decryptor) must share the same secret key.
+  example: []
+  syntax:
+    content: 'public class Symmetric : IDisposable'
+    content.vb: >-
+      Public Class Symmetric
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Encryption.Symmetric.#ctor(DotNetHelper_Encryption.Enums.SymmetricProvider)
+  commentId: M:DotNetHelper_Encryption.Symmetric.#ctor(DotNetHelper_Encryption.Enums.SymmetricProvider)
+  id: '#ctor(DotNetHelper_Encryption.Enums.SymmetricProvider)'
+  parent: DotNetHelper_Encryption.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Symmetric(SymmetricProvider)
+  nameWithType: Symmetric.Symmetric(SymmetricProvider)
+  fullName: DotNetHelper_Encryption.Symmetric.Symmetric(DotNetHelper_Encryption.Enums.SymmetricProvider)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: .ctor
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 77
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nInitializes a new instance of the Symmetric class based on the specified provider.\n"
+  example: []
+  syntax:
+    content: public Symmetric(SymmetricProvider provider)
+    parameters:
+    - id: provider
+      type: DotNetHelper_Encryption.Enums.SymmetricProvider
+    content.vb: Public Sub New(provider As SymmetricProvider)
+  overload: DotNetHelper_Encryption.Symmetric.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Symmetric.#ctor(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Boolean)
+  commentId: M:DotNetHelper_Encryption.Symmetric.#ctor(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Boolean)
+  id: '#ctor(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Boolean)'
+  parent: DotNetHelper_Encryption.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Symmetric(SymmetricProvider, Boolean)
+  nameWithType: Symmetric.Symmetric(SymmetricProvider, Boolean)
+  fullName: DotNetHelper_Encryption.Symmetric.Symmetric(DotNetHelper_Encryption.Enums.SymmetricProvider, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: .ctor
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 86
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nInitializes a new instance of the Symmetric class based on the specified provider.\n"
+  example: []
+  syntax:
+    content: public Symmetric(SymmetricProvider provider, bool useDefaultInitializationVector)
+    parameters:
+    - id: provider
+      type: DotNetHelper_Encryption.Enums.SymmetricProvider
+    - id: useDefaultInitializationVector
+      type: System.Boolean
+    content.vb: Public Sub New(provider As SymmetricProvider, useDefaultInitializationVector As Boolean)
+  overload: DotNetHelper_Encryption.Symmetric.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Symmetric.Key
+  commentId: P:DotNetHelper_Encryption.Symmetric.Key
+  id: Key
+  parent: DotNetHelper_Encryption.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: Symmetric.Key
+  fullName: DotNetHelper_Encryption.Symmetric.Key
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Key
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 99
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGets or sets the key used to encrypt or decrypt data.\n"
+  remarks: Setting a null value will be ignored.
+  example: []
+  syntax:
+    content: public SymmetricKeyData Key { get; set; }
+    parameters: []
+    return:
+      type: DotNetHelper_Encryption.SymmetricKeyData
+    content.vb: Public Property Key As SymmetricKeyData
+  overload: DotNetHelper_Encryption.Symmetric.Key*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Symmetric.IntializationVector
+  commentId: P:DotNetHelper_Encryption.Symmetric.IntializationVector
+  id: IntializationVector
+  parent: DotNetHelper_Encryption.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: IntializationVector
+  nameWithType: Symmetric.IntializationVector
+  fullName: DotNetHelper_Encryption.Symmetric.IntializationVector
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: IntializationVector
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 120
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nGets or sets the initialization vector.\n"
+  remarks: Setting a null value will be ignored.
+  example: []
+  syntax:
+    content: public SymmetricKeyData IntializationVector { get; set; }
+    parameters: []
+    return:
+      type: DotNetHelper_Encryption.SymmetricKeyData
+    content.vb: Public Property IntializationVector As SymmetricKeyData
+  overload: DotNetHelper_Encryption.Symmetric.IntializationVector*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Symmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.SymmetricKeyData)
+  commentId: M:DotNetHelper_Encryption.Symmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.SymmetricKeyData)
+  id: Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.SymmetricKeyData)
+  parent: DotNetHelper_Encryption.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Encrypt(Hash.PreEncryptData, SymmetricKeyData)
+  nameWithType: Symmetric.Encrypt(Hash.PreEncryptData, SymmetricKeyData)
+  fullName: DotNetHelper_Encryption.Symmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData, DotNetHelper_Encryption.SymmetricKeyData)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Encrypt
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 186
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nEncrypts the specified data using the provided key.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Encrypt(Hash.PreEncryptData d, SymmetricKeyData key)
+    parameters:
+    - id: d
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    - id: key
+      type: DotNetHelper_Encryption.SymmetricKeyData
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Encrypt(d As Hash.PreEncryptData, key As SymmetricKeyData) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.Symmetric.Encrypt*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: data is null.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Symmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData)
+  commentId: M:DotNetHelper_Encryption.Symmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData)
+  id: Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData)
+  parent: DotNetHelper_Encryption.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Encrypt(Hash.PreEncryptData)
+  nameWithType: Symmetric.Encrypt(Hash.PreEncryptData)
+  fullName: DotNetHelper_Encryption.Symmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Encrypt
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 196
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nEncrypts the specified data using the preset key and initialization vector.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Encrypt(Hash.PreEncryptData data)
+    parameters:
+    - id: data
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Encrypt(data As Hash.PreEncryptData) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.Symmetric.Encrypt*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: data is null.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Symmetric.Encrypt(System.IO.Stream,DotNetHelper_Encryption.SymmetricKeyData,DotNetHelper_Encryption.SymmetricKeyData)
+  commentId: M:DotNetHelper_Encryption.Symmetric.Encrypt(System.IO.Stream,DotNetHelper_Encryption.SymmetricKeyData,DotNetHelper_Encryption.SymmetricKeyData)
+  id: Encrypt(System.IO.Stream,DotNetHelper_Encryption.SymmetricKeyData,DotNetHelper_Encryption.SymmetricKeyData)
+  parent: DotNetHelper_Encryption.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Encrypt(Stream, SymmetricKeyData, SymmetricKeyData)
+  nameWithType: Symmetric.Encrypt(Stream, SymmetricKeyData, SymmetricKeyData)
+  fullName: DotNetHelper_Encryption.Symmetric.Encrypt(System.IO.Stream, DotNetHelper_Encryption.SymmetricKeyData, DotNetHelper_Encryption.SymmetricKeyData)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Encrypt
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 215
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nEncrypts the specified stream to memory using the provided key and initialization vector.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Encrypt(Stream stream, SymmetricKeyData key, SymmetricKeyData iv)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    - id: key
+      type: DotNetHelper_Encryption.SymmetricKeyData
+    - id: iv
+      type: DotNetHelper_Encryption.SymmetricKeyData
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Encrypt(stream As Stream, key As SymmetricKeyData, iv As SymmetricKeyData) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.Symmetric.Encrypt*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: stream is null.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Symmetric.Encrypt(System.IO.Stream,DotNetHelper_Encryption.SymmetricKeyData)
+  commentId: M:DotNetHelper_Encryption.Symmetric.Encrypt(System.IO.Stream,DotNetHelper_Encryption.SymmetricKeyData)
+  id: Encrypt(System.IO.Stream,DotNetHelper_Encryption.SymmetricKeyData)
+  parent: DotNetHelper_Encryption.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Encrypt(Stream, SymmetricKeyData)
+  nameWithType: Symmetric.Encrypt(Stream, SymmetricKeyData)
+  fullName: DotNetHelper_Encryption.Symmetric.Encrypt(System.IO.Stream, DotNetHelper_Encryption.SymmetricKeyData)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Encrypt
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 226
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nEncrypts the specified stream to memory using the provided key.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Encrypt(Stream stream, SymmetricKeyData key)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    - id: key
+      type: DotNetHelper_Encryption.SymmetricKeyData
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Encrypt(stream As Stream, key As SymmetricKeyData) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.Symmetric.Encrypt*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: stream is null.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Symmetric.Encrypt(System.IO.Stream)
+  commentId: M:DotNetHelper_Encryption.Symmetric.Encrypt(System.IO.Stream)
+  id: Encrypt(System.IO.Stream)
+  parent: DotNetHelper_Encryption.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Encrypt(Stream)
+  nameWithType: Symmetric.Encrypt(Stream)
+  fullName: DotNetHelper_Encryption.Symmetric.Encrypt(System.IO.Stream)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Encrypt
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 236
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nEncrypts the specified stream to memory using the preset key and initialization vector.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Encrypt(Stream stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Encrypt(stream As Stream) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.Symmetric.Encrypt*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: stream is null.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Symmetric.Decrypt(System.IO.Stream,DotNetHelper_Encryption.SymmetricKeyData)
+  commentId: M:DotNetHelper_Encryption.Symmetric.Decrypt(System.IO.Stream,DotNetHelper_Encryption.SymmetricKeyData)
+  id: Decrypt(System.IO.Stream,DotNetHelper_Encryption.SymmetricKeyData)
+  parent: DotNetHelper_Encryption.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Decrypt(Stream, SymmetricKeyData)
+  nameWithType: Symmetric.Decrypt(Stream, SymmetricKeyData)
+  fullName: DotNetHelper_Encryption.Symmetric.Decrypt(System.IO.Stream, DotNetHelper_Encryption.SymmetricKeyData)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Decrypt
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 261
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nDecrypts the specified stream using the provided key and preset initialization vector.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Decrypt(Stream stream, SymmetricKeyData key)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    - id: key
+      type: DotNetHelper_Encryption.SymmetricKeyData
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Decrypt(stream As Stream, key As SymmetricKeyData) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.Symmetric.Decrypt*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: stream is null.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Symmetric.Decrypt(System.IO.Stream)
+  commentId: M:DotNetHelper_Encryption.Symmetric.Decrypt(System.IO.Stream)
+  id: Decrypt(System.IO.Stream)
+  parent: DotNetHelper_Encryption.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Decrypt(Stream)
+  nameWithType: Symmetric.Decrypt(Stream)
+  fullName: DotNetHelper_Encryption.Symmetric.Decrypt(System.IO.Stream)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Decrypt
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 271
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nDecrypts the specified stream using the preset key and initialization vector.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Decrypt(Stream stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Decrypt(stream As Stream) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.Symmetric.Decrypt*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: stream is null.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Symmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.SymmetricKeyData)
+  commentId: M:DotNetHelper_Encryption.Symmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.SymmetricKeyData)
+  id: Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.SymmetricKeyData)
+  parent: DotNetHelper_Encryption.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Decrypt(Hash.PreEncryptData, SymmetricKeyData)
+  nameWithType: Symmetric.Decrypt(Hash.PreEncryptData, SymmetricKeyData)
+  fullName: DotNetHelper_Encryption.Symmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData, DotNetHelper_Encryption.SymmetricKeyData)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Decrypt
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 297
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nDecrypts the specified data using provided key and preset initialization vector.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Decrypt(Hash.PreEncryptData data, SymmetricKeyData key)
+    parameters:
+    - id: data
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    - id: key
+      type: DotNetHelper_Encryption.SymmetricKeyData
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Decrypt(data As Hash.PreEncryptData, key As SymmetricKeyData) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.Symmetric.Decrypt*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: data is null.
+  - type: System.Security.Cryptography.CryptographicException
+    commentId: T:System.Security.Cryptography.CryptographicException
+    description: Unable to decrypt data.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Symmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData)
+  commentId: M:DotNetHelper_Encryption.Symmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData)
+  id: Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData)
+  parent: DotNetHelper_Encryption.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Decrypt(Hash.PreEncryptData)
+  nameWithType: Symmetric.Decrypt(Hash.PreEncryptData)
+  fullName: DotNetHelper_Encryption.Symmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Decrypt
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 308
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nDecrypts the specified data using preset key and initialization vector.\n"
+  example: []
+  syntax:
+    content: public Hash.PreEncryptData Decrypt(Hash.PreEncryptData data)
+    parameters:
+    - id: data
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    return:
+      type: DotNetHelper_Encryption.Hash.PreEncryptData
+    content.vb: Public Function Decrypt(data As Hash.PreEncryptData) As Hash.PreEncryptData
+  overload: DotNetHelper_Encryption.Symmetric.Decrypt*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: data is null.
+  - type: System.Security.Cryptography.CryptographicException
+    commentId: T:System.Security.Cryptography.CryptographicException
+    description: Unable to decrypt data.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Symmetric.Dispose
+  commentId: M:DotNetHelper_Encryption.Symmetric.Dispose
+  id: Dispose
+  parent: DotNetHelper_Encryption.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Symmetric.Dispose()
+  fullName: DotNetHelper_Encryption.Symmetric.Dispose()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Dispose
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 337
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nPerforms application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.\n"
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: DotNetHelper_Encryption.Symmetric.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Encryption.Symmetric.Dispose(System.Boolean)
+  commentId: M:DotNetHelper_Encryption.Symmetric.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: DotNetHelper_Encryption.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: Symmetric.Dispose(Boolean)
+  fullName: DotNetHelper_Encryption.Symmetric.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Encryption/Symmetric.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+    id: Dispose
+    path: ../src/DotNetHelper-Encryption/Symmetric.cs
+    startLine: 348
+  assemblies:
+  - DotNetHelper-Encryption
+  namespace: DotNetHelper_Encryption
+  summary: "\nPerforms application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.\n"
+  example: []
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: true to release both managed and unmanaged resources; false to release only unmanaged resources.
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+  overload: DotNetHelper_Encryption.Symmetric.Dispose*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+references:
+- uid: DotNetHelper_Encryption
+  commentId: N:DotNetHelper_Encryption
+  name: DotNetHelper_Encryption
+  nameWithType: DotNetHelper_Encryption
+  fullName: DotNetHelper_Encryption
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Encryption.Symmetric.#ctor*
+  commentId: Overload:DotNetHelper_Encryption.Symmetric.#ctor
+  name: Symmetric
+  nameWithType: Symmetric.Symmetric
+  fullName: DotNetHelper_Encryption.Symmetric.Symmetric
+- uid: DotNetHelper_Encryption.Enums.SymmetricProvider
+  commentId: T:DotNetHelper_Encryption.Enums.SymmetricProvider
+  parent: DotNetHelper_Encryption.Enums
+  name: SymmetricProvider
+  nameWithType: SymmetricProvider
+  fullName: DotNetHelper_Encryption.Enums.SymmetricProvider
+- uid: DotNetHelper_Encryption.Enums
+  commentId: N:DotNetHelper_Encryption.Enums
+  name: DotNetHelper_Encryption.Enums
+  nameWithType: DotNetHelper_Encryption.Enums
+  fullName: DotNetHelper_Encryption.Enums
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DotNetHelper_Encryption.Symmetric.Key*
+  commentId: Overload:DotNetHelper_Encryption.Symmetric.Key
+  name: Key
+  nameWithType: Symmetric.Key
+  fullName: DotNetHelper_Encryption.Symmetric.Key
+- uid: DotNetHelper_Encryption.SymmetricKeyData
+  commentId: T:DotNetHelper_Encryption.SymmetricKeyData
+  parent: DotNetHelper_Encryption
+  name: SymmetricKeyData
+  nameWithType: SymmetricKeyData
+  fullName: DotNetHelper_Encryption.SymmetricKeyData
+- uid: DotNetHelper_Encryption.Symmetric.IntializationVector*
+  commentId: Overload:DotNetHelper_Encryption.Symmetric.IntializationVector
+  name: IntializationVector
+  nameWithType: Symmetric.IntializationVector
+  fullName: DotNetHelper_Encryption.Symmetric.IntializationVector
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+- uid: DotNetHelper_Encryption.Symmetric.Encrypt*
+  commentId: Overload:DotNetHelper_Encryption.Symmetric.Encrypt
+  name: Encrypt
+  nameWithType: Symmetric.Encrypt
+  fullName: DotNetHelper_Encryption.Symmetric.Encrypt
+- uid: DotNetHelper_Encryption.Hash.PreEncryptData
+  commentId: T:DotNetHelper_Encryption.Hash.PreEncryptData
+  parent: DotNetHelper_Encryption
+  name: Hash.PreEncryptData
+  nameWithType: Hash.PreEncryptData
+  fullName: DotNetHelper_Encryption.Hash.PreEncryptData
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: DotNetHelper_Encryption.Symmetric.Decrypt*
+  commentId: Overload:DotNetHelper_Encryption.Symmetric.Decrypt
+  name: Decrypt
+  nameWithType: Symmetric.Decrypt
+  fullName: DotNetHelper_Encryption.Symmetric.Decrypt
+- uid: System.Security.Cryptography.CryptographicException
+  commentId: T:System.Security.Cryptography.CryptographicException
+  isExternal: true
+- uid: DotNetHelper_Encryption.Symmetric.Dispose*
+  commentId: Overload:DotNetHelper_Encryption.Symmetric.Dispose
+  name: Dispose
+  nameWithType: Symmetric.Dispose
+  fullName: DotNetHelper_Encryption.Symmetric.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

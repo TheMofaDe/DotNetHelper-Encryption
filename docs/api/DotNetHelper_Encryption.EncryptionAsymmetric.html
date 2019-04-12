@@ -1,0 +1,791 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EncryptionAsymmetric
+   | DotNetHelper-Encryption </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EncryptionAsymmetric
+   | DotNetHelper-Encryption ">
+    <meta name="generator" content="docfx 2.41.0.0">
+    
+    <link rel="shortcut icon" href="../logo/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../index.html" title="Home">Home</a>
+                      </li>
+                      <li>
+                          <a href="../articles/gettingstarted.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../api/DotNetHelper_Encryption.html" title="API Documentation">API Documentation</a>
+                      </li>
+                      <li>
+                          <a>REST API</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="DotNetHelper_Encryption.html" title="DotNetHelper_Encryption" class="">DotNetHelper_Encryption</a>
+                        
+                        <ul class="nav level2">
+                          <li class="active">
+                            <a href="DotNetHelper_Encryption.EncryptionAsymmetric.html" title="EncryptionAsymmetric" class="active">EncryptionAsymmetric</a>
+                          </li>
+                          <li class="">
+                            <a href="DotNetHelper_Encryption.EncryptionSymmetric.html" title="EncryptionSymmetric" class="">EncryptionSymmetric</a>
+                          </li>
+                          <li class="">
+                            <a href="DotNetHelper_Encryption.Hash.html" title="Hash" class="">Hash</a>
+                          </li>
+                          <li class="">
+                            <a href="DotNetHelper_Encryption.Hash.PreEncryptData.html" title="Hash.PreEncryptData" class="">Hash.PreEncryptData</a>
+                          </li>
+                          <li class="">
+                            <a href="DotNetHelper_Encryption.Hashing.html" title="Hashing" class="">Hashing</a>
+                          </li>
+                          <li class="">
+                            <a href="DotNetHelper_Encryption.HashProvider.html" title="HashProvider" class="">HashProvider</a>
+                          </li>
+                          <li class="">
+                            <a href="DotNetHelper_Encryption.PrivateKey.html" title="PrivateKey" class="">PrivateKey</a>
+                          </li>
+                          <li class="">
+                            <a href="DotNetHelper_Encryption.PublicKey.html" title="PublicKey" class="">PublicKey</a>
+                          </li>
+                          <li class="">
+                            <a href="DotNetHelper_Encryption.Symmetric.html" title="Symmetric" class="">Symmetric</a>
+                          </li>
+                          <li class="">
+                            <a href="DotNetHelper_Encryption.SymmetricKeyData.html" title="SymmetricKeyData" class="">SymmetricKeyData</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="DotNetHelper_Encryption.Enums.html" title="DotNetHelper_Encryption.Enums" class="">DotNetHelper_Encryption.Enums</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="DotNetHelper_Encryption.Enums.SymmetricProvider.html" title="SymmetricProvider" class="">SymmetricProvider</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric">
+  
+  
+  <h1 id="DotNetHelper_Encryption_EncryptionAsymmetric" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric" class="text-break">Class EncryptionAsymmetric
+  </h1>
+  <div class="markdown level0 summary"><p>Represents an object that performs asymmetric encryption.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">EncryptionAsymmetric</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetHelper_Encryption.html">DotNetHelper_Encryption</a></h6>
+  <h6><strong>Assembly</strong>: DotNetHelper-Encryption.dll</h6>
+  <h5 id="DotNetHelper_Encryption_EncryptionAsymmetric_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EncryptionAsymmetric</code></pre>
+  </div>
+  <h5 id="DotNetHelper_Encryption_EncryptionAsymmetric_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>The only provider supported is the RSACryptoServiceProvider.</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_EncryptionAsymmetric__ctor.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.EncryptionAsymmetric.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Asymmetric.cs/#L38">View Source</a>
+  </span>
+  <a id="DotNetHelper_Encryption_EncryptionAsymmetric__ctor_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.#ctor*"></a>
+  <h4 id="DotNetHelper_Encryption_EncryptionAsymmetric__ctor" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.#ctor">EncryptionAsymmetric()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the Asymmetric class using the default key size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EncryptionAsymmetric()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_EncryptionAsymmetric__ctor_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.EncryptionAsymmetric.%23ctor(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Asymmetric.cs/#L46">View Source</a>
+  </span>
+  <a id="DotNetHelper_Encryption_EncryptionAsymmetric__ctor_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.#ctor*"></a>
+  <h4 id="DotNetHelper_Encryption_EncryptionAsymmetric__ctor_System_Int32_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.#ctor(System.Int32)">EncryptionAsymmetric(Int32)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the Asymmetric class using the specified key size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EncryptionAsymmetric(int keySize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">keySize</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_EncryptionAsymmetric_KeyContainerName.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.EncryptionAsymmetric.KeyContainerName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Asymmetric.cs/#L59">View Source</a>
+  </span>
+  <a id="DotNetHelper_Encryption_EncryptionAsymmetric_KeyContainerName_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.KeyContainerName*"></a>
+  <h4 id="DotNetHelper_Encryption_EncryptionAsymmetric_KeyContainerName" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.KeyContainerName">KeyContainerName</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the name of the key container used to store this key on disk.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string KeyContainerName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetHelper_Encryption_EncryptionAsymmetric_KeyContainerName_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This is an unavoidable side effect of the underlying Microsoft CryptoAPI.
+<a href="http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/q322/3/71.asp">http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/q322/3/71.asp</a>&amp;NoWebContent=1</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_EncryptionAsymmetric_KeySizeBits.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeBits%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Asymmetric.cs/#L64">View Source</a>
+  </span>
+  <a id="DotNetHelper_Encryption_EncryptionAsymmetric_KeySizeBits_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeBits*"></a>
+  <h4 id="DotNetHelper_Encryption_EncryptionAsymmetric_KeySizeBits" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeBits">KeySizeBits</h4>
+  <div class="markdown level1 summary"><p>Gets the current key size, in bits.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int KeySizeBits { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_EncryptionAsymmetric_KeySizeMaxBits.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMaxBits%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Asymmetric.cs/#L69">View Source</a>
+  </span>
+  <a id="DotNetHelper_Encryption_EncryptionAsymmetric_KeySizeMaxBits_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMaxBits*"></a>
+  <h4 id="DotNetHelper_Encryption_EncryptionAsymmetric_KeySizeMaxBits" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMaxBits">KeySizeMaxBits</h4>
+  <div class="markdown level1 summary"><p>Gets the maximum supported key size, in bits.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int KeySizeMaxBits { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_EncryptionAsymmetric_KeySizeMinBits.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMinBits%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Asymmetric.cs/#L74">View Source</a>
+  </span>
+  <a id="DotNetHelper_Encryption_EncryptionAsymmetric_KeySizeMinBits_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMinBits*"></a>
+  <h4 id="DotNetHelper_Encryption_EncryptionAsymmetric_KeySizeMinBits" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeMinBits">KeySizeMinBits</h4>
+  <div class="markdown level1 summary"><p>Gets the minimum supported key size, in bits.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int KeySizeMinBits { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_EncryptionAsymmetric_KeySizeStepBits.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeStepBits%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Asymmetric.cs/#L79">View Source</a>
+  </span>
+  <a id="DotNetHelper_Encryption_EncryptionAsymmetric_KeySizeStepBits_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeStepBits*"></a>
+  <h4 id="DotNetHelper_Encryption_EncryptionAsymmetric_KeySizeStepBits" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeStepBits">KeySizeStepBits</h4>
+  <div class="markdown level1 summary"><p>Gets the valid key step sizes, in bits.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int KeySizeStepBits { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_EncryptionAsymmetric_Decrypt_DotNetHelper_Encryption_Hash_PreEncryptData_DotNetHelper_Encryption_PrivateKey_.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData%2CDotNetHelper_Encryption.PrivateKey)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Asymmetric.cs/#L155">View Source</a>
+  </span>
+  <a id="DotNetHelper_Encryption_EncryptionAsymmetric_Decrypt_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt*"></a>
+  <h4 id="DotNetHelper_Encryption_EncryptionAsymmetric_Decrypt_DotNetHelper_Encryption_Hash_PreEncryptData_DotNetHelper_Encryption_PrivateKey_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.PrivateKey)">Decrypt(Hash.PreEncryptData, PrivateKey)</h4>
+  <div class="markdown level1 summary"><p>Decrypts data using the provided private key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Hash.PreEncryptData Decrypt(Hash.PreEncryptData data, PrivateKey privateKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetHelper_Encryption.Hash.PreEncryptData.html">Hash.PreEncryptData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetHelper_Encryption.PrivateKey.html">PrivateKey</a></td>
+        <td><span class="parametername">privateKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetHelper_Encryption.Hash.PreEncryptData.html">Hash.PreEncryptData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>data or privateKey is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_EncryptionAsymmetric_Decrypt_DotNetHelper_Encryption_Hash_PreEncryptData_System_String_.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Asymmetric.cs/#L168">View Source</a>
+  </span>
+  <a id="DotNetHelper_Encryption_EncryptionAsymmetric_Decrypt_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt*"></a>
+  <h4 id="DotNetHelper_Encryption_EncryptionAsymmetric_Decrypt_DotNetHelper_Encryption_Hash_PreEncryptData_System_String_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.Decrypt(DotNetHelper_Encryption.Hash.PreEncryptData,System.String)">Decrypt(Hash.PreEncryptData, String)</h4>
+  <div class="markdown level1 summary"><p>Decrypts data using the provided private key XML.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Hash.PreEncryptData Decrypt(Hash.PreEncryptData data, string privateKeyXml)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetHelper_Encryption.Hash.PreEncryptData.html">Hash.PreEncryptData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">privateKeyXml</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetHelper_Encryption.Hash.PreEncryptData.html">Hash.PreEncryptData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>data or privateKeyXml is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_EncryptionAsymmetric_Encrypt_DotNetHelper_Encryption_Hash_PreEncryptData_DotNetHelper_Encryption_PublicKey_.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData%2CDotNetHelper_Encryption.PublicKey)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Asymmetric.cs/#L110">View Source</a>
+  </span>
+  <a id="DotNetHelper_Encryption_EncryptionAsymmetric_Encrypt_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt*"></a>
+  <h4 id="DotNetHelper_Encryption_EncryptionAsymmetric_Encrypt_DotNetHelper_Encryption_Hash_PreEncryptData_DotNetHelper_Encryption_PublicKey_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData,DotNetHelper_Encryption.PublicKey)">Encrypt(Hash.PreEncryptData, PublicKey)</h4>
+  <div class="markdown level1 summary"><p>Encrypts data using the provided public key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Hash.PreEncryptData Encrypt(Hash.PreEncryptData data, PublicKey publicKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetHelper_Encryption.Hash.PreEncryptData.html">Hash.PreEncryptData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetHelper_Encryption.PublicKey.html">PublicKey</a></td>
+        <td><span class="parametername">publicKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetHelper_Encryption.Hash.PreEncryptData.html">Hash.PreEncryptData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>data or publicKey is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_EncryptionAsymmetric_Encrypt_DotNetHelper_Encryption_Hash_PreEncryptData_System_String_.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Asymmetric.cs/#L123">View Source</a>
+  </span>
+  <a id="DotNetHelper_Encryption_EncryptionAsymmetric_Encrypt_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt*"></a>
+  <h4 id="DotNetHelper_Encryption_EncryptionAsymmetric_Encrypt_DotNetHelper_Encryption_Hash_PreEncryptData_System_String_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.Encrypt(DotNetHelper_Encryption.Hash.PreEncryptData,System.String)">Encrypt(Hash.PreEncryptData, String)</h4>
+  <div class="markdown level1 summary"><p>Encrypts data using the provided public key XML.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Hash.PreEncryptData Encrypt(Hash.PreEncryptData data, string publicKeyXml)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetHelper_Encryption.Hash.PreEncryptData.html">Hash.PreEncryptData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">publicKeyXml</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetHelper_Encryption.Hash.PreEncryptData.html">Hash.PreEncryptData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>data or publicKeyXml is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_EncryptionAsymmetric_GenerateNewKeyset.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewKeyset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Asymmetric.cs/#L87">View Source</a>
+  </span>
+  <a id="DotNetHelper_Encryption_EncryptionAsymmetric_GenerateNewKeyset_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewKeyset*"></a>
+  <h4 id="DotNetHelper_Encryption_EncryptionAsymmetric_GenerateNewKeyset" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewKeyset">GenerateNewKeyset()</h4>
+  <div class="markdown level1 summary"><p>Generates a new public/private key pair as objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static KeyValuePair&lt;PublicKey, PrivateKey&gt; GenerateNewKeyset()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="DotNetHelper_Encryption.PublicKey.html">PublicKey</a>, <a class="xref" href="DotNetHelper_Encryption.PrivateKey.html">PrivateKey</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_EncryptionAsymmetric_GenerateNewXmlKeyset.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewXmlKeyset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Asymmetric.cs/#L96">View Source</a>
+  </span>
+  <a id="DotNetHelper_Encryption_EncryptionAsymmetric_GenerateNewXmlKeyset_" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewXmlKeyset*"></a>
+  <h4 id="DotNetHelper_Encryption_EncryptionAsymmetric_GenerateNewXmlKeyset" data-uid="DotNetHelper_Encryption.EncryptionAsymmetric.GenerateNewXmlKeyset">GenerateNewXmlKeyset()</h4>
+  <div class="markdown level1 summary"><p>Generates a new public/private key pair as XML strings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static KeyValuePair&lt;string, string&gt; GenerateNewXmlKeyset()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_EncryptionAsymmetric.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.EncryptionAsymmetric%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Asymmetric.cs/#L29" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright � 2019 Joseph McNeal Jr
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
