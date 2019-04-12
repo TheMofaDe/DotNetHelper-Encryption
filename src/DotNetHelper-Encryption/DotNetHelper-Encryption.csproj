@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>DotNetHelper_Encryption</RootNamespace>
     <AssemblyName>DotNetHelper-Encryption</AssemblyName>
   </PropertyGroup>
@@ -29,15 +28,11 @@
 
 
   <ItemGroup>
-    <Compile Remove="Security\ExtBytes.cs" />
-    <Compile Remove="Security\ExtString.cs" />
-  </ItemGroup>
-
-
-
-
-  <ItemGroup>
     <Folder Include="Security\" />
   </ItemGroup>
+
+
+
+
 
 </Project>

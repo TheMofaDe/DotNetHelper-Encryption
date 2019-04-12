@@ -204,10 +204,10 @@ Task("Copy-Files")
     });
 
     // Copy license & Copy XML (since publish does not do this anymore)
-    var licenseFile = "./LICENSE";
+    var licenseFile = "./LICENSE.md";
     if (FileExists($"{licenseFile}"))
     {
-      CopyFileToDirectory($"{licenseFile}",  parameters.Paths.Directories.ArtifactsBinCoreFx);
+      CopyFileToDirectory($"{licenseFile}",  parameters.Paths.Directories.ArtifactsBinStandardFx );
     }
     var xmlFile = $"{parameters.ProjectDir}bin/{parameters.Configuration}/{parameters.CoreFxVersion}/{parameters.ProjectName}.xml";
     if (FileExists($"{xmlFile}"))
@@ -217,7 +217,7 @@ Task("Copy-Files")
     
 
     // .NET FRAMEWORK
-    DotNetCorePublish($"{parameters.ProjectDir}{parameters.ProjectName}.csproj", new DotNetCorePublishSettings
+	DotNetCorePublish($"{parameters.ProjectDir}{parameters.ProjectName}.csproj", new DotNetCorePublishSettings
     {
         Framework = parameters.FullFxVersion,
         NoBuild = true,
