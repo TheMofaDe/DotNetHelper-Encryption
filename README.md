@@ -8,3 +8,6 @@
 
 Created Using DotNet-Starter-Template
 [https://github.com/TheMofaDe/DotNet-Starter-Template] 
+
+## Documentation
+For more information, please refer to the [Officials Docs](http://themofade.github.io/DotNetHelper-Encryption) 
