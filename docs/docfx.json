@@ -49,29 +49,26 @@
       }
     ],
     "globalMetadata": {
-      "_appTitle": "DotNetHelper-Contracts",
+      "_appTitle": "DotNetHelper-Encryption",
       "_disableContribution": false,
       "_disableBreadcrumb": false,
       "_appFaviconPath": "logo/favicon.ico",
       "_disableNavbar": false,
       "_enableSearch": true,
-   //   "_navRel": "../toc.html",
+      //   "_navRel": "../toc.html",
       //    "_appLogoPath": "logo/lucene-net-color.png",
       "_appFooter": "Copyright © 2019 Joseph McNeal Jr"
     },
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    //   "template": [
-    //     "default",
-    //     "lucenetemplate"
-    //   ],
+    "template": [ "statictoc" ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ],
     "keepFileLink": true,
-    "cleanupCacheHistory": false,
+    "cleanupCacheHistory": true,
     "disableGitFeatures": false
   }
 }
