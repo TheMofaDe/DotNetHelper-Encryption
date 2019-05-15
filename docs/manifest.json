@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Business/TheMoFaDe/Code/DotNet-Starter-Template/docs",
+  "source_base_path": "D:/Code/Github/TheMofaDe/DotNetHelper-Encryption/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.EncryptionAsymmetric.html",
-          "hash": "Yga53kCPEeIp0SHt4z9P6g=="
+          "hash": "FW1lZpNOd2AN7WZWILecyw=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.EncryptionSymmetric.html",
-          "hash": "kGw2OGPcz7i3o/4UgKPRAw=="
+          "hash": "ztbkSQuihgPzMzMuxgqepQ=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.Enums.SymmetricProvider.html",
-          "hash": "ueOP6TdVXjwwzFBLkzPqew=="
+          "hash": "hJwEhl68X6WpI03EFy3fBg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.Enums.html",
-          "hash": "YswNYRWHleGFOwL0i7TjhA=="
+          "hash": "rxehi4bc5yToho6fVXAr3w=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.Hash.PreEncryptData.html",
-          "hash": "AxqME5AI3lRGm+tWKYpqdA=="
+          "hash": "NUPp/NPDcbSAPBJgAc5Oyw=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.Hash.html",
-          "hash": "l5eSz7NdVcSudISC6cZCMw=="
+          "hash": "36IXU4G+Iv7Vasnj3a/f0w=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.HashProvider.html",
-          "hash": "uvcKSTynTcv8Tgzs6QUylA=="
+          "hash": "DnrbogQ857agK1bOnBGoOw=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.Hashing.html",
-          "hash": "eL25KnGgmuRc0tNbF6ot4w=="
+          "hash": "LO4+ugxmGcUd6DB6qdfwHA=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.PrivateKey.html",
-          "hash": "p4w+68tIMH+gCPooDEjs6A=="
+          "hash": "DvkKOuzcASFHrh2wuU9KRA=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.PublicKey.html",
-          "hash": "db3XHZOrOE3koOzqN2EGRg=="
+          "hash": "4pxhHCUfZKM3x/wvfqM8Vg=="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.Symmetric.html",
-          "hash": "jOTw1OYD9aaE4pCq+P8gfQ=="
+          "hash": "RJzFpijCc4YHnEj60bCCPg=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.SymmetricKeyData.html",
-          "hash": "yLxGlampZP+RFa+ZZPhPeQ=="
+          "hash": "LfNnYuylZOaZbbYbPyl2kQ=="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.html",
-          "hash": "zhWCYwupZ59hX6+RiO0FiQ=="
+          "hash": "sBFSkaI19Y/FD+9cwEFvuw=="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,31 @@
       "output": {
         ".html": {
           "relative_path": "articles/gettingstarted.html",
-          "hash": "ARmXYHQvK3xO2vRXMkmuvw=="
+          "hash": "KcWGO0NVotteqAgBfCypyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/sample.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/sample.html",
+          "hash": "sgqZ2vuVTy0kofOuZXeaAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/icon.png",
+          "link_to_path": "D:\\Code\\Github\\TheMofaDe\\DotNetHelper-Encryption\\docs/images/icon.png"
         }
       },
       "is_incremental": false,
@@ -186,7 +210,19 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "StFbpC7311VHDfuCS0sxGA=="
+          "hash": "ANRkUnhm9IYxnb8RtYU1QA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "langwordmapping/langwordMapping.yml",
+      "output": {
+        "resource": {
+          "relative_path": "langwordmapping/langwordMapping.yml",
+          "link_to_path": "D:\\Code\\Github\\TheMofaDe\\DotNetHelper-Encryption\\docs/langwordmapping/langwordMapping.yml"
         }
       },
       "is_incremental": false,
@@ -196,24 +232,17 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 13,
-          "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
@@ -222,6 +251,18 @@
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 13,
+          "skipped_file_count": 13
         }
       }
     },

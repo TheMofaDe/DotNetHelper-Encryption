@@ -17,7 +17,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: EncryptionSymmetric
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 21
@@ -61,7 +61,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Create
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 29

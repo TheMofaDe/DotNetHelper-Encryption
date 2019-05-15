@@ -17,7 +17,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Hashing.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Hashing
     path: ../src/DotNetHelper-Encryption/Hashing.cs
     startLine: 57
@@ -61,7 +61,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Hashing.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Create
     path: ../src/DotNetHelper-Encryption/Hashing.cs
     startLine: 68

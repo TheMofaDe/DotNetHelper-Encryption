@@ -21,7 +21,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: SymmetricProvider
     path: ../src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
     startLine: 11
@@ -54,7 +54,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: DES
     path: ../src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
     startLine: 18
@@ -88,7 +88,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: RC2
     path: ../src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
     startLine: 22
@@ -122,7 +122,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Rijndael
     path: ../src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
     startLine: 26
@@ -156,7 +156,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: TripleDES
     path: ../src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
     startLine: 30
@@ -190,7 +190,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: AES
     path: ../src/DotNetHelper-Encryption/Enums/SymmetricProvider.cs
     startLine: 35

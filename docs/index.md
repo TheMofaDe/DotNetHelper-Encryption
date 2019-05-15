@@ -1,23 +1,13 @@
 # DotNetHelper-Encryption
 
-This is a simple easy to use hashing & encryption library
-that supports the following
+Description
 
-## Symmetric Support
-    DES
-    RC2
-    Rijndael
-    TripleDES
-    AES
-## Hashing Support
-    CRC32
-    SHA1
-    SHA256
-    SHA384
-    SHA512
-    MD5
+## How to use
+```csharp
+// code snippet
+```
+
 ## Targeted .NET Frameworks
-    NET45
     NET452
-    NETSTANDARD
+    NETSTANDARD2.0
 

@@ -29,7 +29,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Asymmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: EncryptionAsymmetric
     path: ../src/DotNetHelper-Encryption/Asymmetric.cs
     startLine: 28
@@ -73,7 +73,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Asymmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: .ctor
     path: ../src/DotNetHelper-Encryption/Asymmetric.cs
     startLine: 37
@@ -105,7 +105,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Asymmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: .ctor
     path: ../src/DotNetHelper-Encryption/Asymmetric.cs
     startLine: 45
@@ -140,7 +140,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Asymmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: KeyContainerName
     path: ../src/DotNetHelper-Encryption/Asymmetric.cs
     startLine: 58
@@ -178,7 +178,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Asymmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: KeySizeBits
     path: ../src/DotNetHelper-Encryption/Asymmetric.cs
     startLine: 63
@@ -215,7 +215,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Asymmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: KeySizeMaxBits
     path: ../src/DotNetHelper-Encryption/Asymmetric.cs
     startLine: 68
@@ -252,7 +252,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Asymmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: KeySizeMinBits
     path: ../src/DotNetHelper-Encryption/Asymmetric.cs
     startLine: 73
@@ -289,7 +289,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Asymmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: KeySizeStepBits
     path: ../src/DotNetHelper-Encryption/Asymmetric.cs
     startLine: 78
@@ -326,7 +326,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Asymmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: GenerateNewKeyset
     path: ../src/DotNetHelper-Encryption/Asymmetric.cs
     startLine: 86
@@ -362,7 +362,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Asymmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: GenerateNewXmlKeyset
     path: ../src/DotNetHelper-Encryption/Asymmetric.cs
     startLine: 95
@@ -398,7 +398,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Asymmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Encrypt
     path: ../src/DotNetHelper-Encryption/Asymmetric.cs
     startLine: 109
@@ -441,7 +441,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Asymmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Encrypt
     path: ../src/DotNetHelper-Encryption/Asymmetric.cs
     startLine: 122
@@ -484,7 +484,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Asymmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Decrypt
     path: ../src/DotNetHelper-Encryption/Asymmetric.cs
     startLine: 154
@@ -527,7 +527,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Asymmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Decrypt
     path: ../src/DotNetHelper-Encryption/Asymmetric.cs
     startLine: 167

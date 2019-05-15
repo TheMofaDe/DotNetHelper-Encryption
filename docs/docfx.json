@@ -3,27 +3,10 @@
     {
       "src": [
         {
-          "src": "../",
-          "files": [
-            "src/**.csproj"
-          ],
-          "exclude": [
-            "**/obj/**",
-            "**/bin/**",
-            "_site/**"
-          ]
+          "files": [ "**.csproj" ],
+          "exclude": [ "**/bin/**", "**/obj/**" ],
+          "src": "../src"
         }
-       //,{
-       //  "src": "../",
-       //  "files": [
-       //    "generics/**.csproj"
-       //  ],
-       //  "exclude": [
-       //    "**/obj/**",
-       //    "**/bin/**",
-       //    "_site/**"
-       //  ]
-       //}
       ],
       "dest": "api",
       "properties": {
@@ -45,7 +28,8 @@
     ],
     "resource": [
       {
-        "files": [ "articles/images/**" ]
+        "files": [ "images/**", "langwordmapping/**" ],
+        "exclude": [ "**.meta" ]
       }
     ],
     "globalMetadata": {
@@ -61,7 +45,6 @@
     },
     "dest": "./",
     "globalMetadataFiles": [],
-    "fileMetadataFiles": [],
     "template": [ "statictoc" ],
     "postProcessors": [],
     "markdownEngineName": "markdig",

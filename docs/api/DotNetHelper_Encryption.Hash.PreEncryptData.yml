@@ -26,7 +26,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Hashing.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: PreEncryptData
     path: ../src/DotNetHelper-Encryption/Hashing.cs
     startLine: 375
@@ -71,7 +71,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Hashing.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: DefaultEncoding
     path: ../src/DotNetHelper-Encryption/Hashing.cs
     startLine: 384
@@ -110,7 +110,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Hashing.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Encoding
     path: ../src/DotNetHelper-Encryption/Hashing.cs
     startLine: 390
@@ -147,7 +147,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Hashing.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: .ctor
     path: ../src/DotNetHelper-Encryption/Hashing.cs
     startLine: 403
@@ -179,7 +179,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Hashing.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: .ctor
     path: ../src/DotNetHelper-Encryption/Hashing.cs
     startLine: 411
@@ -217,7 +217,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Hashing.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: .ctor
     path: ../src/DotNetHelper-Encryption/Hashing.cs
     startLine: 419
@@ -252,7 +252,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Hashing.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: .ctor
     path: ../src/DotNetHelper-Encryption/Hashing.cs
     startLine: 427
@@ -289,7 +289,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Hashing.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: IsEmpty
     path: ../src/DotNetHelper-Encryption/Hashing.cs
     startLine: 441
@@ -326,7 +326,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Hashing.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Bytes
     path: ../src/DotNetHelper-Encryption/Hashing.cs
     startLine: 446
@@ -365,7 +365,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Hashing.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Text
     path: ../src/DotNetHelper-Encryption/Hashing.cs
     startLine: 455
@@ -402,7 +402,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Hashing.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: ToString
     path: ../src/DotNetHelper-Encryption/Hashing.cs
     startLine: 484

@@ -31,7 +31,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Symmetric
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 65
@@ -79,7 +79,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: .ctor
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 77
@@ -114,7 +114,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: .ctor
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 86
@@ -151,7 +151,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Key
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 99
@@ -189,7 +189,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: IntializationVector
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 120
@@ -227,7 +227,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Encrypt
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 186
@@ -270,7 +270,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Encrypt
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 196
@@ -311,7 +311,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Encrypt
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 215
@@ -356,7 +356,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Encrypt
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 226
@@ -399,7 +399,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Encrypt
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 236
@@ -440,7 +440,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Decrypt
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 261
@@ -483,7 +483,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Decrypt
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 271
@@ -524,7 +524,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Decrypt
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 297
@@ -570,7 +570,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Decrypt
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 308
@@ -614,7 +614,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Dispose
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 337
@@ -648,7 +648,7 @@ items:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
     id: Dispose
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 348
