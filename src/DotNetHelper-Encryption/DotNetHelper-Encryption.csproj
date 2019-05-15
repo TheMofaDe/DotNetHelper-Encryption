@@ -27,7 +27,9 @@
 
 
   <ItemGroup>
-    <Folder Include="Security\" />
+    <Compile Remove="Security\**" />
+    <EmbeddedResource Remove="Security\**" />
+    <None Remove="Security\**" />
   </ItemGroup>
 
 
