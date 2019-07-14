@@ -19,7 +19,7 @@ namespace DotNetHelper_Encryption
     /// <summary>
     /// Provides access to factory methods for creating SymmetricAlgorithm instances.
     /// </summary>
-    public static class EncryptionSymmetric
+    public static class SymmetricFactory
     {
         /// <summary>
         /// Creates a new instance of the SymmetricAlgorithm class based on the specified provider.
@@ -86,7 +86,7 @@ namespace DotNetHelper_Encryption
         /// </summary>
         public Symmetric(SymmetricProvider provider, bool useDefaultInitializationVector)
         {
-            _crypto = EncryptionSymmetric.Create(provider);
+            _crypto = SymmetricFactory.Create(provider);
 
             // make sure key and IV are always set, no matter what
             Key = RandomKey();

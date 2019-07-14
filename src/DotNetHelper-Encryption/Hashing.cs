@@ -55,7 +55,7 @@ namespace DotNetHelper_Encryption
     /// <summary>
     /// Provides access to factory methods for creating HashAlgorithm instances.
     /// </summary>
-    public static class Hashing
+    public static class HashingFactory
     {
 
 
@@ -232,7 +232,7 @@ namespace DotNetHelper_Encryption
         /// </summary>
         public Hash(HashProvider provider)
         {
-            _hash = Hashing.Create(provider);
+            _hash = HashingFactory.Create(provider);
         }
 
         /// <summary>

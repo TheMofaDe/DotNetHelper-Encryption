@@ -45,6 +45,7 @@ items:
     content: 'public class Symmetric : IDisposable'
     content.vb: >-
       Public Class Symmetric
+
           Implements IDisposable
   inheritance:
   - System.Object

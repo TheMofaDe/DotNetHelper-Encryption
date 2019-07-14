@@ -37,6 +37,7 @@ items:
     content: 'public class Hash : IDisposable'
     content.vb: >-
       Public Class Hash
+
           Implements IDisposable
   inheritance:
   - System.Object

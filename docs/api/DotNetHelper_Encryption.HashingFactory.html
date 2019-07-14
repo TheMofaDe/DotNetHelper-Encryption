@@ -5,24 +5,24 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EncryptionSymmetric
+    <title>Class HashingFactory
    | DotNetHelper-Encryption </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EncryptionSymmetric
+    <meta name="title" content="Class HashingFactory
    | DotNetHelper-Encryption ">
-    <meta name="generator" content="docfx 2.41.0.0">
+    <meta name="generator" content="docfx 2.43.1.0">
     
     <link rel="shortcut icon" href="../logo/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc">
-    <meta property="docfx:tocrel" content="toc">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -52,10 +52,13 @@
                           <a href="../index.html" title="Home">Home</a>
                       </li>
                       <li>
-                          <a href="../articles/sample.html" title="Articles">Articles</a>
+                          <a href="DotNetHelper_Encryption.html" title="API">API</a>
                       </li>
                       <li>
-                          <a href="../api/DotNetHelper-Encryption.html" title="API Documentation">API Documentation</a>
+                          <a href="https://github.com/TheMofaDe/DotNetHelper_Encryption/blob/master/CHANGELOG.md" title="Change Log">Change Log</a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/TheMofaDe/DotNetHelper_Encryption" title="Github">Github</a>
                       </li>
                 </ul>    </div>
           </div>
@@ -102,17 +105,14 @@
                           <li class="">
                             <a href="DotNetHelper_Encryption.EncryptionAsymmetric.html" title="EncryptionAsymmetric" class="">EncryptionAsymmetric</a>
                           </li>
-                          <li class="active">
-                            <a href="DotNetHelper_Encryption.EncryptionSymmetric.html" title="EncryptionSymmetric" class="active">EncryptionSymmetric</a>
-                          </li>
                           <li class="">
                             <a href="DotNetHelper_Encryption.Hash.html" title="Hash" class="">Hash</a>
                           </li>
                           <li class="">
                             <a href="DotNetHelper_Encryption.Hash.PreEncryptData.html" title="Hash.PreEncryptData" class="">Hash.PreEncryptData</a>
                           </li>
-                          <li class="">
-                            <a href="DotNetHelper_Encryption.Hashing.html" title="Hashing" class="">Hashing</a>
+                          <li class="active">
+                            <a href="DotNetHelper_Encryption.HashingFactory.html" title="HashingFactory" class="active">HashingFactory</a>
                           </li>
                           <li class="">
                             <a href="DotNetHelper_Encryption.HashProvider.html" title="HashProvider" class="">HashProvider</a>
@@ -127,6 +127,9 @@
                             <a href="DotNetHelper_Encryption.Symmetric.html" title="Symmetric" class="">Symmetric</a>
                           </li>
                           <li class="">
+                            <a href="DotNetHelper_Encryption.SymmetricFactory.html" title="SymmetricFactory" class="">SymmetricFactory</a>
+                          </li>
+                          <li class="">
                             <a href="DotNetHelper_Encryption.SymmetricKeyData.html" title="SymmetricKeyData" class="">SymmetricKeyData</a>
                           </li>
                         </ul>  </li>
@@ -139,6 +142,15 @@
                             <a href="DotNetHelper_Encryption.Enums.SymmetricProvider.html" title="SymmetricProvider" class="">SymmetricProvider</a>
                           </li>
                         </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="DotNetHelper_Encryption.Helper.html" title="DotNetHelper_Encryption.Helper" class="">DotNetHelper_Encryption.Helper</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="DotNetHelper_Encryption.Helper.CRCHelper.html" title="CRCHelper" class="">CRCHelper</a>
+                          </li>
+                        </ul>  </li>
                   </ul>        </div>
               </div>
             </div>
@@ -146,66 +158,66 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DotNetHelper_Encryption.EncryptionSymmetric">
+            <article class="content wrap" id="_content" data-uid="DotNetHelper_Encryption.HashingFactory">
   
   
-  <h1 id="DotNetHelper_Encryption_EncryptionSymmetric" data-uid="DotNetHelper_Encryption.EncryptionSymmetric" class="text-break">Class EncryptionSymmetric
+  <h1 id="DotNetHelper_Encryption_HashingFactory" data-uid="DotNetHelper_Encryption.HashingFactory" class="text-break">Class HashingFactory
   </h1>
-  <div class="markdown level0 summary"><p>Provides access to factory methods for creating SymmetricAlgorithm instances.</p>
+  <div class="markdown level0 summary"><p>Provides access to factory methods for creating HashAlgorithm instances.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">EncryptionSymmetric</span></div>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">HashingFactory</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.ToString()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetHashCode()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetType()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
     </div>
     <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="DotNetHelper_Encryption.html">DotNetHelper_Encryption</a></h6>
   <h6><strong>Assembly</strong>: DotNetHelper-Encryption.dll</h6>
-  <h5 id="DotNetHelper_Encryption_EncryptionSymmetric_syntax">Syntax</h5>
+  <h5 id="DotNetHelper_Encryption_HashingFactory_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class EncryptionSymmetric</code></pre>
+    <pre><code class="lang-csharp hljs">public static class HashingFactory</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_EncryptionSymmetric_Create_DotNetHelper_Encryption_Enums_SymmetricProvider_System_Security_Cryptography_CipherMode_System_Security_Cryptography_PaddingMode_.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.EncryptionSymmetric.Create(DotNetHelper_Encryption.Enums.SymmetricProvider%2CSystem.Security.Cryptography.CipherMode%2CSystem.Security.Cryptography.PaddingMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_HashingFactory_Create_DotNetHelper_Encryption_HashProvider_.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.HashingFactory.Create(DotNetHelper_Encryption.HashProvider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Symmetric.cs/#L30">View Source</a>
+    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Hashing.cs/#L69">View Source</a>
   </span>
-  <a id="DotNetHelper_Encryption_EncryptionSymmetric_Create_" data-uid="DotNetHelper_Encryption.EncryptionSymmetric.Create*"></a>
-  <h4 id="DotNetHelper_Encryption_EncryptionSymmetric_Create_DotNetHelper_Encryption_Enums_SymmetricProvider_System_Security_Cryptography_CipherMode_System_Security_Cryptography_PaddingMode_" data-uid="DotNetHelper_Encryption.EncryptionSymmetric.Create(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)">Create(SymmetricProvider, CipherMode, PaddingMode)</h4>
-  <div class="markdown level1 summary"><p>Creates a new instance of the SymmetricAlgorithm class based on the specified provider.</p>
+  <a id="DotNetHelper_Encryption_HashingFactory_Create_" data-uid="DotNetHelper_Encryption.HashingFactory.Create*"></a>
+  <h4 id="DotNetHelper_Encryption_HashingFactory_Create_DotNetHelper_Encryption_HashProvider_" data-uid="DotNetHelper_Encryption.HashingFactory.Create(DotNetHelper_Encryption.HashProvider)">Create(HashProvider)</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of the HashAlgorithm class based on the specified provider.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static SymmetricAlgorithm Create(SymmetricProvider provider, CipherMode cipherMode = CipherMode.ECB, PaddingMode padding = PaddingMode.PKCS7)</code></pre>
+    <pre><code class="lang-csharp hljs">public static HashAlgorithm Create(HashProvider provider)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -218,20 +230,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DotNetHelper_Encryption.Enums.SymmetricProvider.html">SymmetricProvider</a></td>
+        <td><a class="xref" href="DotNetHelper_Encryption.HashProvider.html">HashProvider</a></td>
         <td><span class="parametername">provider</span></td>
-        <td><p>Provides the type of symmetric algorithm to create.</p>
+        <td><p>Provides the type of hash algorithm to create.</p>
 </td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Security.Cryptography.CipherMode</span></td>
-        <td><span class="parametername">cipherMode</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Security.Cryptography.PaddingMode</span></td>
-        <td><span class="parametername">padding</span></td>
-        <td></td>
       </tr>
     </tbody>
   </table>
@@ -245,8 +247,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Security.Cryptography.SymmetricAlgorithm</span></td>
-        <td><p>The SymmetricAlgorithm object.</p>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.cryptography.hashalgorithm">HashAlgorithm</a></td>
+        <td><p>The HashAlgorithm object.</p>
 </td>
       </tr>
     </tbody>
@@ -261,7 +263,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
         <td><p>The provider is unknown.</p>
 </td>
       </tr>
@@ -275,10 +277,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_EncryptionSymmetric.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.EncryptionSymmetric%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/new/master/apiSpec/new?filename=DotNetHelper_Encryption_HashingFactory.md&amp;value=---%0Auid%3A%20DotNetHelper_Encryption.HashingFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Symmetric.cs/#L22" class="contribution-link">View Source</a>
+                    <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption/blob/master/src/DotNetHelper-Encryption/Hashing.cs/#L58" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
@@ -297,7 +299,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright � 2019 Joseph McNeal Jr
+            Copyright © 2019  <strong>Joseph McNeal Jr</strong>
             
           </div>
         </div>

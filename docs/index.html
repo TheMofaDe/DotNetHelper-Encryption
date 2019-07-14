@@ -5,22 +5,22 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>DotNetHelper-Encryption | DotNetHelper-Encryption </title>
+    <title>DotNetHelper.Encryption | DotNetHelper-Encryption </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="DotNetHelper-Encryption | DotNetHelper-Encryption ">
-    <meta name="generator" content="docfx 2.41.0.0">
+    <meta name="title" content="DotNetHelper.Encryption | DotNetHelper-Encryption ">
+    <meta name="generator" content="docfx 2.43.1.0">
     
     <link rel="shortcut icon" href="logo/favicon.ico">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
     <link rel="stylesheet" href="styles/docfx.css">
     <link rel="stylesheet" href="styles/main.css">
-    <meta property="docfx:navrel" content="toc">
-    <meta property="docfx:tocrel" content="toc">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -50,10 +50,13 @@
                           <a href="index.html" title="Home">Home</a>
                       </li>
                       <li>
-                          <a href="articles/sample.html" title="Articles">Articles</a>
+                          <a href="api/DotNetHelper_Encryption.html" title="API">API</a>
                       </li>
                       <li>
-                          <a href="api/DotNetHelper-Encryption.html" title="API Documentation">API Documentation</a>
+                          <a href="https://github.com/TheMofaDe/DotNetHelper_Encryption/blob/master/CHANGELOG.md" title="Change Log">Change Log</a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/TheMofaDe/DotNetHelper_Encryption" title="Github">Github</a>
                       </li>
                 </ul>    </div>
           </div>
@@ -81,16 +84,74 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="dotnethelper-encryption">DotNetHelper-Encryption</h1>
+<h1 id="dotnethelperencryption">DotNetHelper.Encryption</h1>
 
-<p>Description</p>
+<h4 id="dotnethelper-encryption-is-a-net-library-that-is-wraps-the-systemsecuritycryptography-to-easily-interchangable-hashing--encryption"><em>DotNetHelper-Encryption is a .net library that is wraps the System.Security.Cryptography to easily interchangable hashing &amp; encryption.</em></h4>
+<p>|| <a href="https://github.com/TheMofaDe/DotNetHelper-Encryption"><strong>View on Github</strong></a> ||</p>
+<h2 id="hashing-support">Hashing Support</h2>
+<ul>
+<li>CRC32</li>
+<li>SHA1</li>
+<li>SHA256</li>
+<li>SHA384</li>
+<li>SHA512</li>
+<li>MD5</li>
+</ul>
+<h2 id="encryption-support">Encryption Support</h2>
+<ul>
+<li>DES</li>
+<li>RC2</li>
+<li>Rijndael</li>
+<li>TripleDES</li>
+<li>AES</li>
+</ul>
 <h2 id="how-to-use">How to use</h2>
-<pre><code class="lang-csharp">// code snippet
+<h5 id="hashing">HASHING</h5>
+<pre><code class="lang-csharp">using DotNetHelper_Encryption
+  class Program
+    {
+        static void Main(string[] args)
+        {
+            var passwordAsBytes = Encoding.UTF8.GetBytes(&quot;password&quot;);
+            var hashProvider = HashProvider.SHA256;// an enum with the options of CRC32,SHA1,SHA256,SHA384,SHA512,MD5
+            var hashAlgorithm = HashingFactory.Create(hashProvider); 
+            var hashValue = hashAlgorithm.ComputeHash(new MemoryStream(passwordAsBytes));
+        }
+    }
 </code></pre>
-<h2 id="targeted-net-frameworks">Targeted .NET Frameworks</h2>
-<pre><code>NET452
-NETSTANDARD2.0
+<h5 id="encryption--decryption">ENCRYPTION &amp; DECRYPTION</h5>
+<pre><code class="lang-csharp">using DotNetHelper_Encryption
+  class Program
+    {
+        static void Main(string[] args)
+        {
+            var password = &quot;password&quot;;
+            string encryptedPassword;
+            var symmetricProvider = SymmetricProvider.AES; // an enum with the options of AES,DES,RC2,Rijndael,TripleDES
+            var symmetricAlgorithm = SymmetricFactory.Create(symmetricProvider);
+            
+            using (symmetricAlgorithm)
+            {
+                var passwordStream = new MemoryStream();
+                var cryptoStream = new CryptoStream(passwordStream, symmetricAlgorithm.CreateEncryptor(), CryptoStreamMode.Write);
+                new MemoryStream(Encoding.UTF8.GetBytes(password)).CopyTo(cryptoStream);
+                cryptoStream.FlushFinalBlock();
+                passwordStream.Seek(0, SeekOrigin.Begin);
+                encryptedPassword = new StreamReader(passwordStream).ReadToEnd();
+            }
+            
+            string passwordButDecrypted;
+            passwordStream.Seek(0, SeekOrigin.Begin);
+            using (var decryptorStream = new CryptoStream(passwordStream, symmetricAlgorithm.CreateDecryptor(), CryptoStreamMode.Read))
+            {
+                  passwordButDecrypted = new StreamReader(decryptorStream).ReadToEnd();
+            }
+
+        }
+    }
 </code></pre>
+<!-- Links. -->
+<!-- Documentation Links. -->
 </article>
           </div>
           
@@ -118,7 +179,7 @@ NETSTANDARD2.0
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright � 2019 Joseph McNeal Jr
+            Copyright © 2019  <strong>Joseph McNeal Jr</strong>
             
           </div>
         </div>

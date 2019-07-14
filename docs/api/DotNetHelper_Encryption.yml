@@ -5,14 +5,14 @@ items:
   id: DotNetHelper_Encryption
   children:
   - DotNetHelper_Encryption.EncryptionAsymmetric
-  - DotNetHelper_Encryption.EncryptionSymmetric
   - DotNetHelper_Encryption.Hash
   - DotNetHelper_Encryption.Hash.PreEncryptData
-  - DotNetHelper_Encryption.Hashing
+  - DotNetHelper_Encryption.HashingFactory
   - DotNetHelper_Encryption.HashProvider
   - DotNetHelper_Encryption.PrivateKey
   - DotNetHelper_Encryption.PublicKey
   - DotNetHelper_Encryption.Symmetric
+  - DotNetHelper_Encryption.SymmetricFactory
   - DotNetHelper_Encryption.SymmetricKeyData
   langs:
   - csharp
@@ -47,11 +47,11 @@ references:
   name: HashProvider
   nameWithType: HashProvider
   fullName: DotNetHelper_Encryption.HashProvider
-- uid: DotNetHelper_Encryption.Hashing
-  commentId: T:DotNetHelper_Encryption.Hashing
-  name: Hashing
-  nameWithType: Hashing
-  fullName: DotNetHelper_Encryption.Hashing
+- uid: DotNetHelper_Encryption.HashingFactory
+  commentId: T:DotNetHelper_Encryption.HashingFactory
+  name: HashingFactory
+  nameWithType: HashingFactory
+  fullName: DotNetHelper_Encryption.HashingFactory
 - uid: DotNetHelper_Encryption.Hash
   commentId: T:DotNetHelper_Encryption.Hash
   name: Hash
@@ -63,11 +63,11 @@ references:
   name: Hash.PreEncryptData
   nameWithType: Hash.PreEncryptData
   fullName: DotNetHelper_Encryption.Hash.PreEncryptData
-- uid: DotNetHelper_Encryption.EncryptionSymmetric
-  commentId: T:DotNetHelper_Encryption.EncryptionSymmetric
-  name: EncryptionSymmetric
-  nameWithType: EncryptionSymmetric
-  fullName: DotNetHelper_Encryption.EncryptionSymmetric
+- uid: DotNetHelper_Encryption.SymmetricFactory
+  commentId: T:DotNetHelper_Encryption.SymmetricFactory
+  name: SymmetricFactory
+  nameWithType: SymmetricFactory
+  fullName: DotNetHelper_Encryption.SymmetricFactory
 - uid: DotNetHelper_Encryption.Symmetric
   commentId: T:DotNetHelper_Encryption.Symmetric
   name: Symmetric

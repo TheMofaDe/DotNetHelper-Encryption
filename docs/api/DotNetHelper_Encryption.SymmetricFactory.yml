@@ -1,24 +1,24 @@
 ### YamlMime:ManagedReference
 items:
-- uid: DotNetHelper_Encryption.EncryptionSymmetric
-  commentId: T:DotNetHelper_Encryption.EncryptionSymmetric
-  id: EncryptionSymmetric
+- uid: DotNetHelper_Encryption.SymmetricFactory
+  commentId: T:DotNetHelper_Encryption.SymmetricFactory
+  id: SymmetricFactory
   parent: DotNetHelper_Encryption
   children:
-  - DotNetHelper_Encryption.EncryptionSymmetric.Create(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)
+  - DotNetHelper_Encryption.SymmetricFactory.Create(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)
   langs:
   - csharp
   - vb
-  name: EncryptionSymmetric
-  nameWithType: EncryptionSymmetric
-  fullName: DotNetHelper_Encryption.EncryptionSymmetric
+  name: SymmetricFactory
+  nameWithType: SymmetricFactory
+  fullName: DotNetHelper_Encryption.SymmetricFactory
   type: Class
   source:
     remote:
       path: src/DotNetHelper-Encryption/Symmetric.cs
       branch: master
       repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
-    id: EncryptionSymmetric
+    id: SymmetricFactory
     path: ../src/DotNetHelper-Encryption/Symmetric.cs
     startLine: 21
   assemblies:
@@ -27,8 +27,8 @@ items:
   summary: "\nProvides access to factory methods for creating SymmetricAlgorithm instances.\n"
   example: []
   syntax:
-    content: public static class EncryptionSymmetric
-    content.vb: Public Module EncryptionSymmetric
+    content: public static class SymmetricFactory
+    content.vb: Public Module SymmetricFactory
   inheritance:
   - System.Object
   inheritedMembers:
@@ -46,16 +46,16 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: DotNetHelper_Encryption.EncryptionSymmetric.Create(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)
-  commentId: M:DotNetHelper_Encryption.EncryptionSymmetric.Create(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)
+- uid: DotNetHelper_Encryption.SymmetricFactory.Create(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)
+  commentId: M:DotNetHelper_Encryption.SymmetricFactory.Create(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)
   id: Create(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)
-  parent: DotNetHelper_Encryption.EncryptionSymmetric
+  parent: DotNetHelper_Encryption.SymmetricFactory
   langs:
   - csharp
   - vb
   name: Create(SymmetricProvider, CipherMode, PaddingMode)
-  nameWithType: EncryptionSymmetric.Create(SymmetricProvider, CipherMode, PaddingMode)
-  fullName: DotNetHelper_Encryption.EncryptionSymmetric.Create(DotNetHelper_Encryption.Enums.SymmetricProvider, System.Security.Cryptography.CipherMode, System.Security.Cryptography.PaddingMode)
+  nameWithType: SymmetricFactory.Create(SymmetricProvider, CipherMode, PaddingMode)
+  fullName: DotNetHelper_Encryption.SymmetricFactory.Create(DotNetHelper_Encryption.Enums.SymmetricProvider, System.Security.Cryptography.CipherMode, System.Security.Cryptography.PaddingMode)
   type: Method
   source:
     remote:
@@ -84,7 +84,7 @@ items:
       type: System.Security.Cryptography.SymmetricAlgorithm
       description: The SymmetricAlgorithm object.
     content.vb: Public Shared Function Create(provider As SymmetricProvider, cipherMode As CipherMode = CipherMode.ECB, padding As PaddingMode = PaddingMode.PKCS7) As SymmetricAlgorithm
-  overload: DotNetHelper_Encryption.EncryptionSymmetric.Create*
+  overload: DotNetHelper_Encryption.SymmetricFactory.Create*
   exceptions:
   - type: System.ArgumentException
     commentId: T:System.ArgumentException
@@ -396,11 +396,11 @@ references:
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   isExternal: true
-- uid: DotNetHelper_Encryption.EncryptionSymmetric.Create*
-  commentId: Overload:DotNetHelper_Encryption.EncryptionSymmetric.Create
+- uid: DotNetHelper_Encryption.SymmetricFactory.Create*
+  commentId: Overload:DotNetHelper_Encryption.SymmetricFactory.Create
   name: Create
-  nameWithType: EncryptionSymmetric.Create
-  fullName: DotNetHelper_Encryption.EncryptionSymmetric.Create
+  nameWithType: SymmetricFactory.Create
+  fullName: DotNetHelper_Encryption.SymmetricFactory.Create
 - uid: DotNetHelper_Encryption.Enums.SymmetricProvider
   commentId: T:DotNetHelper_Encryption.Enums.SymmetricProvider
   parent: DotNetHelper_Encryption.Enums

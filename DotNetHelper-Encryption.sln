@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetHelper-Encryption", "src\DotNetHelper-Encryption\DotNetHelper-Encryption.csproj", "{8F967BDD-7320-4C26-86CC-594D45E3ECDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetHelper.Encryption.Tests", "tests\DotNetHelper.Encryption.Tests\DotNetHelper.Encryption.Tests.csproj", "{EAFEDB00-A0AB-45FC-9993-8CC4CE3CE4DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleConsoleApp", "samples\SampleConsoleApp\SampleConsoleApp.csproj", "{463E1B47-A78D-49D1-B4C5-B432D6346AFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8F967BDD-7320-4C26-86CC-594D45E3ECDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F967BDD-7320-4C26-86CC-594D45E3ECDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F967BDD-7320-4C26-86CC-594D45E3ECDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFEDB00-A0AB-45FC-9993-8CC4CE3CE4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFEDB00-A0AB-45FC-9993-8CC4CE3CE4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFEDB00-A0AB-45FC-9993-8CC4CE3CE4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFEDB00-A0AB-45FC-9993-8CC4CE3CE4DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{463E1B47-A78D-49D1-B4C5-B432D6346AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463E1B47-A78D-49D1-B4C5-B432D6346AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463E1B47-A78D-49D1-B4C5-B432D6346AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463E1B47-A78D-49D1-B4C5-B432D6346AFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

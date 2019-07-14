@@ -161,25 +161,6 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Encryption.EncryptionAsymmetric.KeySizeStepBits
   nameWithType: EncryptionAsymmetric.KeySizeStepBits
-- uid: DotNetHelper_Encryption.EncryptionSymmetric
-  name: EncryptionSymmetric
-  href: api/DotNetHelper_Encryption.EncryptionSymmetric.html
-  commentId: T:DotNetHelper_Encryption.EncryptionSymmetric
-  fullName: DotNetHelper_Encryption.EncryptionSymmetric
-  nameWithType: EncryptionSymmetric
-- uid: DotNetHelper_Encryption.EncryptionSymmetric.Create(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)
-  name: Create(SymmetricProvider, CipherMode, PaddingMode)
-  href: api/DotNetHelper_Encryption.EncryptionSymmetric.html#DotNetHelper_Encryption_EncryptionSymmetric_Create_DotNetHelper_Encryption_Enums_SymmetricProvider_System_Security_Cryptography_CipherMode_System_Security_Cryptography_PaddingMode_
-  commentId: M:DotNetHelper_Encryption.EncryptionSymmetric.Create(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)
-  fullName: DotNetHelper_Encryption.EncryptionSymmetric.Create(DotNetHelper_Encryption.Enums.SymmetricProvider, System.Security.Cryptography.CipherMode, System.Security.Cryptography.PaddingMode)
-  nameWithType: EncryptionSymmetric.Create(SymmetricProvider, CipherMode, PaddingMode)
-- uid: DotNetHelper_Encryption.EncryptionSymmetric.Create*
-  name: Create
-  href: api/DotNetHelper_Encryption.EncryptionSymmetric.html#DotNetHelper_Encryption_EncryptionSymmetric_Create_
-  commentId: Overload:DotNetHelper_Encryption.EncryptionSymmetric.Create
-  isSpec: "True"
-  fullName: DotNetHelper_Encryption.EncryptionSymmetric.Create
-  nameWithType: EncryptionSymmetric.Create
 - uid: DotNetHelper_Encryption.Enums
   name: DotNetHelper_Encryption.Enums
   href: api/DotNetHelper_Encryption.Enums.html
@@ -425,25 +406,25 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Encryption.Hash.Value
   nameWithType: Hash.Value
-- uid: DotNetHelper_Encryption.Hashing
-  name: Hashing
-  href: api/DotNetHelper_Encryption.Hashing.html
-  commentId: T:DotNetHelper_Encryption.Hashing
-  fullName: DotNetHelper_Encryption.Hashing
-  nameWithType: Hashing
-- uid: DotNetHelper_Encryption.Hashing.Create(DotNetHelper_Encryption.HashProvider)
+- uid: DotNetHelper_Encryption.HashingFactory
+  name: HashingFactory
+  href: api/DotNetHelper_Encryption.HashingFactory.html
+  commentId: T:DotNetHelper_Encryption.HashingFactory
+  fullName: DotNetHelper_Encryption.HashingFactory
+  nameWithType: HashingFactory
+- uid: DotNetHelper_Encryption.HashingFactory.Create(DotNetHelper_Encryption.HashProvider)
   name: Create(HashProvider)
-  href: api/DotNetHelper_Encryption.Hashing.html#DotNetHelper_Encryption_Hashing_Create_DotNetHelper_Encryption_HashProvider_
-  commentId: M:DotNetHelper_Encryption.Hashing.Create(DotNetHelper_Encryption.HashProvider)
-  fullName: DotNetHelper_Encryption.Hashing.Create(DotNetHelper_Encryption.HashProvider)
-  nameWithType: Hashing.Create(HashProvider)
-- uid: DotNetHelper_Encryption.Hashing.Create*
+  href: api/DotNetHelper_Encryption.HashingFactory.html#DotNetHelper_Encryption_HashingFactory_Create_DotNetHelper_Encryption_HashProvider_
+  commentId: M:DotNetHelper_Encryption.HashingFactory.Create(DotNetHelper_Encryption.HashProvider)
+  fullName: DotNetHelper_Encryption.HashingFactory.Create(DotNetHelper_Encryption.HashProvider)
+  nameWithType: HashingFactory.Create(HashProvider)
+- uid: DotNetHelper_Encryption.HashingFactory.Create*
   name: Create
-  href: api/DotNetHelper_Encryption.Hashing.html#DotNetHelper_Encryption_Hashing_Create_
-  commentId: Overload:DotNetHelper_Encryption.Hashing.Create
+  href: api/DotNetHelper_Encryption.HashingFactory.html#DotNetHelper_Encryption_HashingFactory_Create_
+  commentId: Overload:DotNetHelper_Encryption.HashingFactory.Create
   isSpec: "True"
-  fullName: DotNetHelper_Encryption.Hashing.Create
-  nameWithType: Hashing.Create
+  fullName: DotNetHelper_Encryption.HashingFactory.Create
+  nameWithType: HashingFactory.Create
 - uid: DotNetHelper_Encryption.HashProvider
   name: HashProvider
   href: api/DotNetHelper_Encryption.HashProvider.html
@@ -486,6 +467,31 @@ references:
   commentId: F:DotNetHelper_Encryption.HashProvider.SHA512
   fullName: DotNetHelper_Encryption.HashProvider.SHA512
   nameWithType: HashProvider.SHA512
+- uid: DotNetHelper_Encryption.Helper
+  name: DotNetHelper_Encryption.Helper
+  href: api/DotNetHelper_Encryption.Helper.html
+  commentId: N:DotNetHelper_Encryption.Helper
+  fullName: DotNetHelper_Encryption.Helper
+  nameWithType: DotNetHelper_Encryption.Helper
+- uid: DotNetHelper_Encryption.Helper.CRCHelper
+  name: CRCHelper
+  href: api/DotNetHelper_Encryption.Helper.CRCHelper.html
+  commentId: T:DotNetHelper_Encryption.Helper.CRCHelper
+  fullName: DotNetHelper_Encryption.Helper.CRCHelper
+  nameWithType: CRCHelper
+- uid: DotNetHelper_Encryption.Helper.CRCHelper.GetCRC(System.IO.Stream,System.Boolean)
+  name: GetCRC(Stream, Boolean)
+  href: api/DotNetHelper_Encryption.Helper.CRCHelper.html#DotNetHelper_Encryption_Helper_CRCHelper_GetCRC_System_IO_Stream_System_Boolean_
+  commentId: M:DotNetHelper_Encryption.Helper.CRCHelper.GetCRC(System.IO.Stream,System.Boolean)
+  fullName: DotNetHelper_Encryption.Helper.CRCHelper.GetCRC(System.IO.Stream, System.Boolean)
+  nameWithType: CRCHelper.GetCRC(Stream, Boolean)
+- uid: DotNetHelper_Encryption.Helper.CRCHelper.GetCRC*
+  name: GetCRC
+  href: api/DotNetHelper_Encryption.Helper.CRCHelper.html#DotNetHelper_Encryption_Helper_CRCHelper_GetCRC_
+  commentId: Overload:DotNetHelper_Encryption.Helper.CRCHelper.GetCRC
+  isSpec: "True"
+  fullName: DotNetHelper_Encryption.Helper.CRCHelper.GetCRC
+  nameWithType: CRCHelper.GetCRC
 - uid: DotNetHelper_Encryption.PrivateKey
   name: PrivateKey
   href: api/DotNetHelper_Encryption.PrivateKey.html
@@ -960,6 +966,25 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Encryption.Symmetric.Key
   nameWithType: Symmetric.Key
+- uid: DotNetHelper_Encryption.SymmetricFactory
+  name: SymmetricFactory
+  href: api/DotNetHelper_Encryption.SymmetricFactory.html
+  commentId: T:DotNetHelper_Encryption.SymmetricFactory
+  fullName: DotNetHelper_Encryption.SymmetricFactory
+  nameWithType: SymmetricFactory
+- uid: DotNetHelper_Encryption.SymmetricFactory.Create(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)
+  name: Create(SymmetricProvider, CipherMode, PaddingMode)
+  href: api/DotNetHelper_Encryption.SymmetricFactory.html#DotNetHelper_Encryption_SymmetricFactory_Create_DotNetHelper_Encryption_Enums_SymmetricProvider_System_Security_Cryptography_CipherMode_System_Security_Cryptography_PaddingMode_
+  commentId: M:DotNetHelper_Encryption.SymmetricFactory.Create(DotNetHelper_Encryption.Enums.SymmetricProvider,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)
+  fullName: DotNetHelper_Encryption.SymmetricFactory.Create(DotNetHelper_Encryption.Enums.SymmetricProvider, System.Security.Cryptography.CipherMode, System.Security.Cryptography.PaddingMode)
+  nameWithType: SymmetricFactory.Create(SymmetricProvider, CipherMode, PaddingMode)
+- uid: DotNetHelper_Encryption.SymmetricFactory.Create*
+  name: Create
+  href: api/DotNetHelper_Encryption.SymmetricFactory.html#DotNetHelper_Encryption_SymmetricFactory_Create_
+  commentId: Overload:DotNetHelper_Encryption.SymmetricFactory.Create
+  isSpec: "True"
+  fullName: DotNetHelper_Encryption.SymmetricFactory.Create
+  nameWithType: SymmetricFactory.Create
 - uid: DotNetHelper_Encryption.SymmetricKeyData
   name: SymmetricKeyData
   href: api/DotNetHelper_Encryption.SymmetricKeyData.html
@@ -1039,3 +1064,6 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Encryption.SymmetricKeyData.MinBytes
   nameWithType: SymmetricKeyData.MinBytes
+- uid: TSD
+  name: THIS IS THE HOME PAGE TO TUTORIALS
+  href: tutorials/index.html

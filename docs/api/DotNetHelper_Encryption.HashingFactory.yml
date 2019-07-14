@@ -1,24 +1,24 @@
 ### YamlMime:ManagedReference
 items:
-- uid: DotNetHelper_Encryption.Hashing
-  commentId: T:DotNetHelper_Encryption.Hashing
-  id: Hashing
+- uid: DotNetHelper_Encryption.HashingFactory
+  commentId: T:DotNetHelper_Encryption.HashingFactory
+  id: HashingFactory
   parent: DotNetHelper_Encryption
   children:
-  - DotNetHelper_Encryption.Hashing.Create(DotNetHelper_Encryption.HashProvider)
+  - DotNetHelper_Encryption.HashingFactory.Create(DotNetHelper_Encryption.HashProvider)
   langs:
   - csharp
   - vb
-  name: Hashing
-  nameWithType: Hashing
-  fullName: DotNetHelper_Encryption.Hashing
+  name: HashingFactory
+  nameWithType: HashingFactory
+  fullName: DotNetHelper_Encryption.HashingFactory
   type: Class
   source:
     remote:
       path: src/DotNetHelper-Encryption/Hashing.cs
       branch: master
       repo: https://github.com/TheMofaDe/DotNetHelper-Encryption
-    id: Hashing
+    id: HashingFactory
     path: ../src/DotNetHelper-Encryption/Hashing.cs
     startLine: 57
   assemblies:
@@ -27,8 +27,8 @@ items:
   summary: "\nProvides access to factory methods for creating HashAlgorithm instances.\n"
   example: []
   syntax:
-    content: public static class Hashing
-    content.vb: Public Module Hashing
+    content: public static class HashingFactory
+    content.vb: Public Module HashingFactory
   inheritance:
   - System.Object
   inheritedMembers:
@@ -46,16 +46,16 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: DotNetHelper_Encryption.Hashing.Create(DotNetHelper_Encryption.HashProvider)
-  commentId: M:DotNetHelper_Encryption.Hashing.Create(DotNetHelper_Encryption.HashProvider)
+- uid: DotNetHelper_Encryption.HashingFactory.Create(DotNetHelper_Encryption.HashProvider)
+  commentId: M:DotNetHelper_Encryption.HashingFactory.Create(DotNetHelper_Encryption.HashProvider)
   id: Create(DotNetHelper_Encryption.HashProvider)
-  parent: DotNetHelper_Encryption.Hashing
+  parent: DotNetHelper_Encryption.HashingFactory
   langs:
   - csharp
   - vb
   name: Create(HashProvider)
-  nameWithType: Hashing.Create(HashProvider)
-  fullName: DotNetHelper_Encryption.Hashing.Create(DotNetHelper_Encryption.HashProvider)
+  nameWithType: HashingFactory.Create(HashProvider)
+  fullName: DotNetHelper_Encryption.HashingFactory.Create(DotNetHelper_Encryption.HashProvider)
   type: Method
   source:
     remote:
@@ -80,7 +80,7 @@ items:
       type: System.Security.Cryptography.HashAlgorithm
       description: The HashAlgorithm object.
     content.vb: Public Shared Function Create(provider As HashProvider) As HashAlgorithm
-  overload: DotNetHelper_Encryption.Hashing.Create*
+  overload: DotNetHelper_Encryption.HashingFactory.Create*
   exceptions:
   - type: System.ArgumentException
     commentId: T:System.ArgumentException
@@ -392,11 +392,11 @@ references:
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   isExternal: true
-- uid: DotNetHelper_Encryption.Hashing.Create*
-  commentId: Overload:DotNetHelper_Encryption.Hashing.Create
+- uid: DotNetHelper_Encryption.HashingFactory.Create*
+  commentId: Overload:DotNetHelper_Encryption.HashingFactory.Create
   name: Create
-  nameWithType: Hashing.Create
-  fullName: DotNetHelper_Encryption.Hashing.Create
+  nameWithType: HashingFactory.Create
+  fullName: DotNetHelper_Encryption.HashingFactory.Create
 - uid: DotNetHelper_Encryption.HashProvider
   commentId: T:DotNetHelper_Encryption.HashProvider
   parent: DotNetHelper_Encryption

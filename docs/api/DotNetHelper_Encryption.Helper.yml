@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Encryption.Helper
+  commentId: N:DotNetHelper_Encryption.Helper
+  id: DotNetHelper_Encryption.Helper
+  children:
+  - DotNetHelper_Encryption.Helper.CRCHelper
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Encryption.Helper
+  nameWithType: DotNetHelper_Encryption.Helper
+  fullName: DotNetHelper_Encryption.Helper
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Encryption
+references:
+- uid: DotNetHelper_Encryption.Helper.CRCHelper
+  commentId: T:DotNetHelper_Encryption.Helper.CRCHelper
+  name: CRCHelper
+  nameWithType: CRCHelper
+  fullName: DotNetHelper_Encryption.Helper.CRCHelper

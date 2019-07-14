@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "D:/Code/Github/TheMofaDe/DotNetHelper-Encryption/docs",
+  "source_base_path": "C:/Business/TheMoFaDe/Code/TheMofaDe/DotNetHelper-Encryption/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,19 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.EncryptionAsymmetric.html",
-          "hash": "FW1lZpNOd2AN7WZWILecyw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetHelper_Encryption.EncryptionSymmetric.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetHelper_Encryption.EncryptionSymmetric.html",
-          "hash": "ztbkSQuihgPzMzMuxgqepQ=="
+          "hash": "/SGpquSKNs0lqR5kwXJNnw=="
         }
       },
       "is_incremental": false,
@@ -42,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.Enums.SymmetricProvider.html",
-          "hash": "hJwEhl68X6WpI03EFy3fBg=="
+          "hash": "O1tI/vkJtifO1SZ7ECfmYg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.Enums.html",
-          "hash": "rxehi4bc5yToho6fVXAr3w=="
+          "hash": "6huDYWvFHm1G0Blt5J0GXA=="
         }
       },
       "is_incremental": false,
@@ -66,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.Hash.PreEncryptData.html",
-          "hash": "NUPp/NPDcbSAPBJgAc5Oyw=="
+          "hash": "l9zmOMJNQYbcy5Flo8lrBQ=="
         }
       },
       "is_incremental": false,
@@ -78,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.Hash.html",
-          "hash": "36IXU4G+Iv7Vasnj3a/f0w=="
+          "hash": "J0AF6fOOEucc1NdTFFfvRA=="
         }
       },
       "is_incremental": false,
@@ -90,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.HashProvider.html",
-          "hash": "DnrbogQ857agK1bOnBGoOw=="
+          "hash": "RBqpeEBM1K9ZFckzdCnqrg=="
         }
       },
       "is_incremental": false,
@@ -98,11 +86,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DotNetHelper_Encryption.Hashing.yml",
+      "source_relative_path": "api/DotNetHelper_Encryption.HashingFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/DotNetHelper_Encryption.Hashing.html",
-          "hash": "LO4+ugxmGcUd6DB6qdfwHA=="
+          "relative_path": "api/DotNetHelper_Encryption.HashingFactory.html",
+          "hash": "xFO5fYkkONrjH2MG7JqO/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Encryption.Helper.CRCHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Encryption.Helper.CRCHelper.html",
+          "hash": "MNjrKgKt5lTciUl/ImxrcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Encryption.Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Encryption.Helper.html",
+          "hash": "KpDYPpElBJms3PQXWnL5Zg=="
         }
       },
       "is_incremental": false,
@@ -114,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.PrivateKey.html",
-          "hash": "DvkKOuzcASFHrh2wuU9KRA=="
+          "hash": "LYZXruN+azzT7sDaRDjm3Q=="
         }
       },
       "is_incremental": false,
@@ -126,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.PublicKey.html",
-          "hash": "4pxhHCUfZKM3x/wvfqM8Vg=="
+          "hash": "VU1uSobJTeAoKYzc3z5+CQ=="
         }
       },
       "is_incremental": false,
@@ -138,7 +150,19 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.Symmetric.html",
-          "hash": "RJzFpijCc4YHnEj60bCCPg=="
+          "hash": "AzOYyB58JgSHmFJhdYEtEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Encryption.SymmetricFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Encryption.SymmetricFactory.html",
+          "hash": "oK9fKEBbr0/IOGW3Hacvrw=="
         }
       },
       "is_incremental": false,
@@ -150,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.SymmetricKeyData.html",
-          "hash": "LfNnYuylZOaZbbYbPyl2kQ=="
+          "hash": "gf86F6S6K0wYdXVYKjRt4Q=="
         }
       },
       "is_incremental": false,
@@ -162,31 +186,19 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetHelper_Encryption.html",
-          "hash": "sBFSkaI19Y/FD+9cwEFvuw=="
+          "hash": "UtFCUXUMg0NtW4FVWGzNLQ=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted.md",
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "articles/gettingstarted.html",
-          "hash": "KcWGO0NVotteqAgBfCypyQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/sample.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/sample.html",
-          "hash": "sgqZ2vuVTy0kofOuZXeaAg=="
+          "relative_path": "api/toc.html",
+          "hash": "yGWuT+MazZ8aHEL3kZDbnQ=="
         }
       },
       "is_incremental": false,
@@ -198,7 +210,7 @@
       "output": {
         "resource": {
           "relative_path": "images/icon.png",
-          "link_to_path": "D:\\Code\\Github\\TheMofaDe\\DotNetHelper-Encryption\\docs/images/icon.png"
+          "link_to_path": "C:\\Business\\TheMoFaDe\\Code\\TheMofaDe\\DotNetHelper-Encryption\\docs/images/icon.png"
         }
       },
       "is_incremental": false,
@@ -210,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "9lR0KRS1kms+o0/AJ2ggnw=="
+          "hash": "wUiOYV6viMhrwB+ivRqBTg=="
         }
       },
       "is_incremental": false,
@@ -222,7 +234,82 @@
       "output": {
         "resource": {
           "relative_path": "langwordmapping/langwordMapping.yml",
-          "link_to_path": "D:\\Code\\Github\\TheMofaDe\\DotNetHelper-Encryption\\docs/langwordmapping/langwordMapping.yml"
+          "link_to_path": "C:\\Business\\TheMoFaDe\\Code\\TheMofaDe\\DotNetHelper-Encryption\\docs/langwordmapping/langwordMapping.yml"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Qpn2rncYVSLGnTq5tb0Dqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials/Attributes/attribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/Attributes/attribute.html",
+          "hash": "mgCB0HgJ1BZk/xeSR0vWdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials/GenerateSql/datatable2sql.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/GenerateSql/datatable2sql.html",
+          "hash": "52xW88E6xOi6zMIjrK0lVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials/GenerateSql/object2sql.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/GenerateSql/object2sql.html",
+          "hash": "2Zegz0HCctwVqquHPIMXYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/index.html",
+          "hash": "Mpv/1I7WkIMTtxtIap0w3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "tutorials/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/toc.html",
+          "hash": "Ku3uC8uNMfP+72+HoBp5lg=="
         }
       },
       "is_incremental": false,
@@ -232,19 +319,14 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -252,17 +334,24 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 13,
-          "skipped_file_count": 13
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 15,
+          "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 2
+          "total_file_count": 5,
+          "skipped_file_count": 0
         }
       }
     },

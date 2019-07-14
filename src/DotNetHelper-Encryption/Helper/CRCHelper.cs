@@ -16,7 +16,7 @@ namespace DotNetHelper_Encryption.Helper
                 using (stream)
                 {
                     var hash = string.Empty;
-                    var bytes = Hashing.Create(HashProvider.CRC32).ComputeHash(stream);
+                    var bytes = HashingFactory.Create(HashProvider.CRC32).ComputeHash(stream);
                     hash = bytes.Aggregate(hash, (current, b) => current + b.ToString("x2").ToLower());
                     return hash;
                 }
@@ -24,7 +24,7 @@ namespace DotNetHelper_Encryption.Helper
             else
             {
                 var hash = string.Empty;
-                var bytes = Hashing.Create(HashProvider.CRC32).ComputeHash(stream);
+                var bytes = HashingFactory.Create(HashProvider.CRC32).ComputeHash(stream);
                 hash = bytes.Aggregate(hash, (current, b) => current + b.ToString("x2").ToLower());
                 return hash;
             }

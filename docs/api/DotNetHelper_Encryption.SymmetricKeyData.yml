@@ -31,12 +31,12 @@ items:
   - DotNetHelper-Encryption
   namespace: DotNetHelper_Encryption
   summary: "\nRepresents symmetric key data used to encrypt or decrypt data.\n"
-  remarks: "\nUse the Text property to get/set a string representation.\n"
   example: []
   syntax:
     content: 'public class SymmetricKeyData : Hash.PreEncryptData'
     content.vb: >-
       Public Class SymmetricKeyData
+
           Inherits Hash.PreEncryptData
   inheritance:
   - System.Object
